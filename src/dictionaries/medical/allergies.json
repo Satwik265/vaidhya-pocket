@@ -1,0 +1,24 @@
+[
+  {
+    "canonicalId": "ALLERGY_PENICILLIN",
+    "nameEn": "Penicillin Allergy",
+    "translations": {
+      "en": { "standard": "penicillin allergy", "variants": ["allergic to penicillin", "amoxicillin allergy", "penicillin reaction"] },
+      "hi": { "standard": "पेनिसिलिन से एलर्जी", "transliteration": "penicillin allergy", "variants": ["penicillin suit nahi karta", "penicillin se daane aate hain"] },
+      "mr": { "standard": "पेनिसिलिन ॲलर्जी", "transliteration": "penicillin allergy", "variants": ["penicillin chalat nahi", "penicillin mule aajar"] },
+      "ta": { "standard": "பெனிசிலின் ஒவ்வாமை", "transliteration": "penicillin ovvaamai", "variants": ["penicillin othukkadhu", "penicillin allergy"] },
+      "gu": { "standard": "પેનિસિલિન એલર્જી", "transliteration": "penicillin allergy", "variants": ["penicillin anukul nathi", "penicillin thi daane"] }
+    }
+  },
+  {
+    "canonicalId": "ALLERGY_SULFA",
+    "nameEn": "Sulfa Drugs Allergy",
+    "translations": {
+      "en": { "standard": "sulfa allergy", "variants": ["sulfonamide allergy", "allergic to sulfa", "bactrim allergy"] },
+      "hi": { "standard": "सल्फा दवाओं से एलर्जी", "transliteration": "sulfa allergy", "variants": ["sulfa davai se allergy"] },
+      "mr": { "standard": "सल्फा ॲलर्जी", "transliteration": "sulfa allergy", "variants": ["sulfa goli chalat nahi"] },
+      "ta": { "standard": "சல்ஃபா ஒவ்வாமை", "transliteration": "sulfa ovvaamai", "variants": ["sulfa allergy"] },
+      "gu": { "standard": "સલ્ફા એલર્જી", "transliteration": "sulfa allergy", "variants": ["sulfa davathi allergy"] }
+    }
+  }
+]

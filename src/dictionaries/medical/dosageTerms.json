@@ -1,0 +1,35 @@
+[
+  {
+    "canonicalId": "DOSE_500MG",
+    "nameEn": "500 mg",
+    "translations": {
+      "en": { "standard": "500 mg", "variants": ["five hundred milligrams", "500 milligram"] },
+      "hi": { "standard": "५०० मिलीग्राम", "transliteration": "500 milligram", "variants": ["paanch sau mg"] },
+      "mr": { "standard": "५०० मिलीग्रॅम", "transliteration": "500 milligram", "variants": ["paashe mg"] },
+      "ta": { "standard": "500 மில்லிகிராம்", "transliteration": "500 milligram", "variants": ["ainnooru mg"] },
+      "gu": { "standard": "૫૦૦ મિલિગ્રામ", "transliteration": "500 milligram", "variants": ["paanso mg"] }
+    }
+  },
+  {
+    "canonicalId": "DOSE_ONE_TABLET",
+    "nameEn": "One Tablet",
+    "translations": {
+      "en": { "standard": "1 tablet", "variants": ["one tablet", "one pill", "1 tab"] },
+      "hi": { "standard": "एक गोली", "transliteration": "ek goli", "variants": ["ek tablet"] },
+      "mr": { "standard": "एक गोळी", "transliteration": "ek goli", "variants": ["ek tablet"] },
+      "ta": { "standard": "ஒரு மாத்திரை", "transliteration": "oru maathirai", "variants": ["oru tablet"] },
+      "gu": { "standard": "એક ગોળી", "transliteration": "ek goli", "variants": ["ek tablet"] }
+    }
+  },
+  {
+    "canonicalId": "DOSE_HALF_TABLET",
+    "nameEn": "Half Tablet",
+    "translations": {
+      "en": { "standard": "half tablet", "variants": ["0.5 tab", "half pill"] },
+      "hi": { "standard": "आधी गोली", "transliteration": "aadhi goli", "variants": ["aadha tablet"] },
+      "mr": { "standard": "अर्धी गोळी", "transliteration": "ardhi goli", "variants": ["ardha tablet"] },
+      "ta": { "standard": "அரை மாத்திரை", "transliteration": "arai maathirai", "variants": ["arai tablet"] },
+      "gu": { "standard": "અડધી ગોળી", "transliteration": "ardhi goli", "variants": ["ardhi tablet"] }
+    }
+  }
+]

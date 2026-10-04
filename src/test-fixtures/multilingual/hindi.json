@@ -1,0 +1,82 @@
+[
+  {
+    "input": "मुझे सीने में दर्द और सांस फूलना कल से हो रहा है।",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "Mujhe chest mein bahut pain hai aur saans phool rahi hai.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "BP nahi hai lekin 3 din se bukhar hai.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["DIS_HYPERTENSION", "SYM_FEVER"],
+    "expectedNegations": ["DIS_HYPERTENSION"],
+    "expectedTemporalValues": [{ "value": 3, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "बुखार बिल्कुल नहीं है पर २ हफ्ते से सिरदर्द है।",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_FEVER", "SYM_HEADACHE"],
+    "expectedNegations": ["SYM_FEVER"],
+    "expectedTemporalValues": [{ "value": 2, "unit": "weeks" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Sugar ki bimari ke liye metformin le raha hoon.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["DIS_DIABETES"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "सीने में असहनीय दर्द और चक्कर आकर गिर पड़े।",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_DIZZINESS", "EMERG_CHEST_CRUSHING"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_CARDIAC_SYNCOPE"]
+  },
+  {
+    "input": "Achanak chehra tedha ho gaya aur aawaz ladkhada rahi hai.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["EMERG_STROKE_FAST"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACUTE_STROKE"]
+  },
+  {
+    "input": "Potty mein khoon aa raha hai pichhle do din se.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_BLOOD_IN_STOOL"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_GI_BLEED"]
+  },
+  {
+    "input": "Bachpan se asthma ki problem hai.",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["DIS_ASTHMA"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "childhood" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "मरीज अचानक बेहोश हो गया है और कोई प्रतिक्रिया नहीं दे रहा।",
+    "expectedLanguage": "hi-IN",
+    "expectedConcepts": ["SYM_ALTERED_CONSCIOUSNESS", "EMERG_UNRESPONSIVE"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_UNRESPONSIVE"]
+  }
+]

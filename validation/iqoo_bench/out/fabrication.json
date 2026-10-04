@@ -1,0 +1,10 @@
+{
+  "status": "STUB_ONLY",
+  "caveat": "Stub LLM injects fabricated facts by design. This validates gate mechanics, NOT any real model. Real-LLM rate must be measured on the phone via ?bench=1&llm=webllm.",
+  "transcripts": 3,
+  "proposed": 24,
+  "dropped": 6,
+  "kept": 18,
+  "rawFabricationRate": 0.25,
+  "gatedFabricationRate": 0
+}

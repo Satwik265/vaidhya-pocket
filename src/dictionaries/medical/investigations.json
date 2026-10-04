@@ -1,0 +1,46 @@
+[
+  {
+    "canonicalId": "INV_BLOOD_SUGAR",
+    "nameEn": "Blood Glucose Test / HbA1c",
+    "translations": {
+      "en": { "standard": "blood sugar test", "variants": ["fasting blood sugar", "hba1c", "glucose test", "post prandial sugar"] },
+      "hi": { "standard": "खून में शुगर की जांच", "transliteration": "blood sugar test", "variants": ["sugar ki janch", "hba1c test"] },
+      "mr": { "standard": "रक्तातील साखरेची तपासणी", "transliteration": "raktaatil sakharechi tapasani", "variants": ["sugar test", "sakhar tapasani"] },
+      "ta": { "standard": "ரத்த சர்க்கரை சோதனை", "transliteration": "ratha sarkarai sodhanai", "variants": ["sugar test", "ratha parithanai"] },
+      "gu": { "standard": "બ્લડ સુગર ટેસ્ટ", "transliteration": "blood sugar test", "variants": ["sugar ni tapas", "lohi ni tapas"] }
+    }
+  },
+  {
+    "canonicalId": "INV_ECG",
+    "nameEn": "Electrocardiogram (ECG)",
+    "translations": {
+      "en": { "standard": "ECG", "variants": ["electrocardiogram", "EKG", "heart trace"] },
+      "hi": { "standard": "ईसीजी", "transliteration": "ecg", "variants": ["dil ki janch", "heart ka graph"] },
+      "mr": { "standard": "ईसीजी", "transliteration": "ecg", "variants": ["hrudayachi tapasani", "ecg kadhla"] },
+      "ta": { "standard": "இசிஜி", "transliteration": "ecg", "variants": ["heart test", "idhaya parithanai"] },
+      "gu": { "standard": "ઇસીજી", "transliteration": "ecg", "variants": ["heart no graph", "hriday ni tapas"] }
+    }
+  },
+  {
+    "canonicalId": "INV_CHEST_XRAY",
+    "nameEn": "Chest X-Ray",
+    "translations": {
+      "en": { "standard": "chest X-ray", "variants": ["X-ray chest", "chest radiograph", "lung scan"] },
+      "hi": { "standard": "छाती का एक्सरे", "transliteration": "chhati ka xray", "variants": ["chest xray", "seene ka xray"] },
+      "mr": { "standard": "छातीचा एक्स-रे", "transliteration": "chhaticha xray", "variants": ["chhati cha photo", "chest xray"] },
+      "ta": { "standard": "மார்பக எக்ஸ்-ரே", "transliteration": "marbagha xray", "variants": ["nenju xray", "chest xray"] },
+      "gu": { "standard": "છાતીનો એક્સ-રે", "transliteration": "chhatino xray", "variants": ["chhati no photo", "chest xray"] }
+    }
+  },
+  {
+    "canonicalId": "INV_CBC",
+    "nameEn": "Complete Blood Count (CBC)",
+    "translations": {
+      "en": { "standard": "complete blood count", "variants": ["CBC", "hemoglobin test", "platelet count", "WBC count"] },
+      "hi": { "standard": "सीबीसी", "transliteration": "cbc", "variants": ["khoon ki janch", "hemoglobin test", "platelet count"] },
+      "mr": { "standard": "सीबीसी", "transliteration": "cbc", "variants": ["rakta chi tapasani", "hemoglobin tapasani"] },
+      "ta": { "standard": "முழு ரத்தப் பரிசோதனை", "transliteration": "mulu ratha parithanai", "variants": ["cbc test", "ratha anavu"] },
+      "gu": { "standard": "સીબીસી ટેસ્ટ", "transliteration": "cbc test", "variants": ["lohi ni sampurna tapas", "hemoglobin"] }
+    }
+  }
+]

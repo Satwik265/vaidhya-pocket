@@ -1,0 +1,91 @@
+{
+  "language": "ta",
+  "locale": "ta-IN",
+  "entries": [
+    {
+      "canonicalConceptId": "SYM_CHEST_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "நெஞ்சு வலி",
+      "transliteration": "nenju vali",
+      "commonSpellingVariants": ["nenjil vali", "maarbu vali", "nenju erichal"],
+      "commonColloquialVariants": ["enakku nenju vali", "nenjil baaram", "nenjil vali irukku", "nenju adaikudhu", "nenju kuthuthu"],
+      "commonSpeechRecognitionErrors": ["nenju wali", "nenju valli", "ninju vali"]
+    },
+    {
+      "canonicalConceptId": "SYM_BREATHLESSNESS",
+      "clinicalCategory": "symptom",
+      "nativeScript": "மூச்சுத் திணறல்",
+      "transliteration": "moochu thinarel",
+      "commonSpellingVariants": ["moochu vida kashtam", "moochu thinaral", "moochu muttuthu"],
+      "commonColloquialVariants": ["moochu vaanguthu", "enakku moochu thinarel", "moochu vida mudiyala"],
+      "commonSpeechRecognitionErrors": ["muchu tinarel", "moochu thinaral"]
+    },
+    {
+      "canonicalConceptId": "SYM_FEVER",
+      "clinicalCategory": "symptom",
+      "nativeScript": "காய்ச்சல்",
+      "transliteration": "kaichal",
+      "commonSpellingVariants": ["kaychal", "suram", "kaachal"],
+      "commonColloquialVariants": ["udambu sooda irukku", "enakku kaichal", "kulir kaichal", "adikkadi kaichal"],
+      "commonSpeechRecognitionErrors": ["kaachal", "kaaichal", "kaychal"]
+    },
+    {
+      "canonicalConceptId": "SYM_HEADACHE",
+      "clinicalCategory": "symptom",
+      "nativeScript": "தலைவலி",
+      "transliteration": "thalaivali",
+      "commonSpellingVariants": ["thalai vali", "thalaikkul kuthu"],
+      "commonColloquialVariants": ["thalai baram", "enakku thalaivali", "thalai vedikkuthu"],
+      "commonSpeechRecognitionErrors": ["talaivali", "thalai valli"]
+    },
+    {
+      "canonicalConceptId": "DIS_HYPERTENSION",
+      "clinicalCategory": "condition",
+      "nativeScript": "உயர் ரத்த அழுத்தம்",
+      "transliteration": "high bp",
+      "commonSpellingVariants": ["ratha kothippu", "high bp irukku", "bp adhigam"],
+      "commonColloquialVariants": ["bp problem", "blood pressure irukku", "bp mathirai sapdren"],
+      "commonSpeechRecognitionErrors": ["beep", "ratha kothipu"]
+    },
+    {
+      "canonicalConceptId": "DIS_DIABETES",
+      "clinicalCategory": "condition",
+      "nativeScript": "நீரிழிவு நோய்",
+      "transliteration": "neerizhivu noi",
+      "commonSpellingVariants": ["sakkari noi", "sugar irukku", "sarkarai"],
+      "commonColloquialVariants": ["sugar complaint", "sugar adhigam", "sarkkarai viyadhi"],
+      "commonSpeechRecognitionErrors": ["shugar", "sakarai"]
+    },
+    {
+      "canonicalConceptId": "RX_METFORMIN",
+      "clinicalCategory": "medication",
+      "nativeScript": "மெட்பார்மின்",
+      "transliteration": "metformin",
+      "commonSpellingVariants": ["glycomet", "sugar mathirai"],
+      "commonColloquialVariants": ["sugarukku mathirai", "glycomet 500"],
+      "commonSpeechRecognitionErrors": ["met for men", "meat formin"]
+    },
+    {
+      "canonicalConceptId": "RX_PARACETAMOL",
+      "clinicalCategory": "medication",
+      "nativeScript": "பாராசிட்டமால்",
+      "transliteration": "paracetamol",
+      "commonSpellingVariants": ["crocin", "dolo", "dolo 650"],
+      "commonColloquialVariants": ["kaichal mathirai", "crocin tablet"],
+      "commonSpeechRecognitionErrors": ["parisitamol", "dolow"]
+    }
+  ],
+  "negationTriggers": [
+    "illai", "kidayathu", "illa", "illave illai", "eppothum illai", "illamal", "illaiye"
+  ],
+  "temporalPatterns": [
+    { "regex": "(\\d+)\\s*(naal|naala|natkal|naatkalaga|naatkal)", "unit": "days" },
+    { "regex": "(\\d+)\\s*(vaaram|vaarama|vaarangal)", "unit": "weeks" },
+    { "regex": "(\\d+)\\s*(maasam|maathama|maathangal)", "unit": "months" },
+    { "regex": "(\\d+)\\s*(varudam|varushama|varudangal)", "unit": "years" },
+    { "regex": "indru\\s*mudhal", "unit": "days", "value": 0 },
+    { "regex": "netru\\s*mudhal", "unit": "days", "value": 1 },
+    { "regex": "netru\\s*iravu\\s*mudhal", "unit": "hours", "value": 12 },
+    { "regex": "senra\\s*vaaram\\s*mudhal", "unit": "weeks", "value": 1 }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "input": "I have severe chest pain and breathlessness since yesterday.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "No chest pain, but having high fever for 3 days.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_FEVER"],
+    "expectedNegations": ["SYM_CHEST_PAIN"],
+    "expectedTemporalValues": [{ "value": 3, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Patient denies fever or cough, but complains of severe headache for 2 weeks.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_FEVER", "SYM_COUGH", "SYM_HEADACHE"],
+    "expectedNegations": ["SYM_FEVER", "SYM_COUGH"],
+    "expectedTemporalValues": [{ "value": 2, "unit": "weeks" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "I am taking metformin 500 mg and amlodipine daily for sugar and high blood pressure.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["DIS_DIABETES", "DIS_HYPERTENSION"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Severe crushing chest pain radiating to left arm with dizziness.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_DIZZINESS", "EMERG_CHEST_CRUSHING"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_CARDIAC_SYNCOPE"]
+  },
+  {
+    "input": "Sudden facial droop and arm weakness with speech difficulty.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["EMERG_STROKE_FAST"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACUTE_STROKE"]
+  },
+  {
+    "input": "Passing dark red blood in stool for 2 days.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_BLOOD_IN_STOOL"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_GI_BLEED"]
+  },
+  {
+    "input": "I have asthma since childhood.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["DIS_ASTHMA"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "childhood" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "He passed out and lost consciousness for 5 minutes.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_ALTERED_CONSCIOUSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_UNRESPONSIVE"]
+  },
+  {
+    "input": "Patient has dry cough and mild fever since 2020.",
+    "expectedLanguage": "en-IN",
+    "expectedConcepts": ["SYM_COUGH", "SYM_FEVER"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "unit": "years" }],
+    "expectedRedFlags": []
+  }
+]

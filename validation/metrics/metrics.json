@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "benchmark_date": "2026-09-12",
+    "os": "Windows 11",
+    "python_version": "3.14.3",
+    "machine": "Intel Core Ultra 5 125H / 16GB RAM",
+    "total_benchmark_cases": 150
+  },
+  "system_resources": {
+    "idle_ram_mb": 0.0,
+    "peak_ram_mb": 0.0,
+    "asr_model_size_mb": 187.85
+  },
+  "latencies": {
+    "language_identification": {
+      "n": 100,
+      "median_ms": 0.01,
+      "p95_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "raw_samples": [
+        0.02,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    "clinical_nlp_extraction": {
+      "n": 100,
+      "median_ms": 0.24,
+      "p95_ms": 0.49,
+      "min_ms": 0.22,
+      "max_ms": 0.6,
+      "raw_samples": [
+        0.26,
+        0.25,
+        0.23,
+        0.23,
+        0.23,
+        0.23,
+        0.23,
+        0.23,
+        0.23,
+        0.23
+      ]
+    },
+    "safety_rule_evaluation": {
+      "n": 100,
+      "median_ms": 0.0,
+      "p95_ms": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.0,
+      "raw_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "sqlite_write_latency": {
+      "n": 50,
+      "median_ms": 11.8,
+      "p95_ms": 14.6,
+      "min_ms": 9.56,
+      "max_ms": 21.39
+    },
+    "sqlite_read_latency": {
+      "n": 50,
+      "median_ms": 0.12,
+      "p95_ms": 0.21,
+      "min_ms": 0.06,
+      "max_ms": 0.24
+    },
+    "approval_transition_latency": {
+      "n": 50,
+      "median_ms": 4.11,
+      "p95_ms": 4.96,
+      "min_ms": 3.15,
+      "max_ms": 5.45
+    },
+    "asr_metrics": {
+      "model_available": true,
+      "model_path": "D:\\MedscribeAI\\models\\asr\\indic-conformer\\model.int8.onnx",
+      "load_time_ms": 2432.54,
+      "inference_latency": {
+        "n": 30,
+        "median_ms": 93.64,
+        "p95_ms": 104.09,
+        "min_ms": 80.7,
+        "max_ms": 111.33
+      }
+    }
+  },
+  "ocr_status": {
+    "is_available": false,
+    "status": "UNAVAILABLE",
+    "tesseract_binary_present": false,
+    "available_languages": [],
+    "required_languages_present": false,
+    "inference_smoke_tested": false
+  },
+  "clinical_nlp_benchmark": {
+    "dataset_size": 150,
+    "overall": {
+      "tp": 164,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9939,
+      "recall": 0.9371,
+      "f1": 0.9647
+    },
+    "by_language": {
+      "en": {
+        "cases": 25,
+        "expected_facts": 30,
+        "emitted_facts": 31,
+        "tp": 30,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9677,
+        "recall": 1.0,
+        "f1": 0.9836
+      },
+      "hi": {
+        "cases": 65,
+        "expected_facts": 78,
+        "emitted_facts": 69,
+        "tp": 68,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.8947,
+        "f1": 0.9444
+      },
+      "mr": {
+        "cases": 20,
+        "expected_facts": 23,
+        "emitted_facts": 23,
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ta": {
+        "cases": 20,
+        "expected_facts": 23,
+        "emitted_facts": 23,
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "gu": {
+        "cases": 20,
+        "expected_facts": 23,
+        "emitted_facts": 20,
+        "tp": 20,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8696,
+        "f1": 0.9303
+      }
+    },
+    "semantic_accuracies": {
+      "assertion_accuracy": 0.9756,
+      "assertion_evaluated": 164,
+      "temporality_accuracy": 0.9634,
+      "temporality_evaluated": 164,
+      "experiencer_accuracy": 0.9817,
+      "experiencer_evaluated": 164
+    },
+    "zero_fabrication": {
+      "unanchored_hallucinations": 0,
+      "total_emitted_facts": 166,
+      "grounding_rate": 1.0
+    }
+  }
+}

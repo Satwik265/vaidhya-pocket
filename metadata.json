@@ -1,0 +1,8 @@
+{
+  "name": "MedScribeAI",
+  "description": "Sovereign, offline-first AI patient case-taking and clinical documentation platform.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_OFFLINE_SOVEREIGN_AI",
+    "MAJOR_CAPABILITY_CLINICAL_NLP_EXTRACTION"
+  ]
+}

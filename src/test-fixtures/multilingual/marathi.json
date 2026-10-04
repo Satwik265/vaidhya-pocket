@@ -1,0 +1,82 @@
+[
+  {
+    "input": "मला छातीत दुखत आहे आणि श्वास घेण्यास त्रास कालपासून होतोय.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "mala chhatit khup dukhta aani dam lagto ahe.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "chhatit dukhtay",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "मला तीन दिवसांपासून fever आहे.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_FEVER"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 3, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "रक्तदाब नाही पण खूप ताप आणि डोकेदुखी आहे.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["DIS_HYPERTENSION", "SYM_FEVER", "SYM_HEADACHE"],
+    "expectedNegations": ["DIS_HYPERTENSION"],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Sakhar rog ahe mala aani glycomet goli gheto.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["DIS_DIABETES"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "छातीत असह्य वेदना आणि चक्कर येऊन खाली पडले.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_DIZZINESS", "EMERG_CHEST_CRUSHING"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_CARDIAC_SYNCOPE"]
+  },
+  {
+    "input": "Achanak ek baju thambli aani bolne ladkhadat ahe.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["EMERG_STROKE_FAST"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACUTE_STROKE"]
+  },
+  {
+    "input": "Sandasat rakt yet ahe don divasapasun.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["SYM_BLOOD_IN_STOOL"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_GI_BLEED"]
+  },
+  {
+    "input": "Lahanpana pasun asthma cha tras ahe.",
+    "expectedLanguage": "mr-IN",
+    "expectedConcepts": ["DIS_ASTHMA"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "childhood" }],
+    "expectedRedFlags": []
+  }
+]

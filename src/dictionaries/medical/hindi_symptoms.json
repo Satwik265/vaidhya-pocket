@@ -1,0 +1,365 @@
+[
+  {
+    "conceptId": "SYM_FEVER",
+    "category": "symptom",
+    "canonicalEnglish": "fever",
+    "devanagari": ["बुखार", "ज्वर", "तेज़ बुखार", "बदन गरम"],
+    "romanized": ["bukhar", "bukhaar", "jwar", "tez bukhar", "badan garam"],
+    "colloquial": ["badan garam hai", "body garam hai", "taap chadha hai"],
+    "asrVariants": ["bukar", "bhukar", "bukhaar hai"],
+    "relatedConcepts": ["SYM_CHILLS", "SYM_BODY_ACHE"]
+  },
+  {
+    "conceptId": "SYM_CHILLS",
+    "category": "symptom",
+    "canonicalEnglish": "chills / rigors",
+    "devanagari": ["कंपकंपी", "ठंड लगना", "सर्दी लगना"],
+    "romanized": ["kapkapi", "thand lagna", "sardi lagna"],
+    "colloquial": ["thand lag rahi hai", "kaanp raha hoon"],
+    "asrVariants": ["kapakapi"],
+    "relatedConcepts": ["SYM_FEVER"]
+  },
+  {
+    "conceptId": "SYM_COUGH",
+    "category": "symptom",
+    "canonicalEnglish": "cough",
+    "devanagari": ["खांसी", "खाँसी"],
+    "romanized": ["khaansi", "khansi", "khaasi"],
+    "colloquial": ["khaansi aa rahi hai", "khich khich ho rahi hai"],
+    "asrVariants": ["kaansi", "khasi"],
+    "relatedConcepts": ["SYM_SORE_THROAT", "SYM_BREATHLESSNESS"]
+  },
+  {
+    "conceptId": "SYM_COMMON_COLD",
+    "category": "symptom",
+    "canonicalEnglish": "common cold / runny nose",
+    "devanagari": ["सर्दी", "जुकाम", "नाक बहना"],
+    "romanized": ["sardi", "zukam", "jukaam", "naak behna"],
+    "colloquial": ["naak baha raha hai", "zukaam ho gaya"],
+    "asrVariants": ["jukham"],
+    "relatedConcepts": ["SYM_COUGH", "SYM_FEVER"]
+  },
+  {
+    "conceptId": "SYM_HEADACHE",
+    "category": "symptom",
+    "canonicalEnglish": "headache",
+    "devanagari": ["सिर दर्द", "सर दर्द", "सिरदर्द"],
+    "romanized": ["sar dard", "sir dard", "sardard"],
+    "colloquial": ["sar mein dard ho raha hai", "sar bhaari lag raha hai"],
+    "asrVariants": ["sardart", "sirdard"],
+    "relatedConcepts": ["SYM_DIZZINESS", "SYM_FEVER"]
+  },
+  {
+    "conceptId": "SYM_CHEST_PAIN",
+    "category": "symptom",
+    "canonicalEnglish": "chest pain",
+    "devanagari": ["सीने में दर्द", "छाती में दर्द", "सीने में तकलीफ"],
+    "romanized": ["seene mein dard", "seene me dard", "chhati mein dard", "chhati me dard", "seene mein takleef", "seene me takleef"],
+    "colloquial": ["chest mein dard ho raha hai", "chest me dard", "seena dukh raha hai", "seene me tez dard", "seene me bahut tez dard", "seene me koi dard", "sine me koi dard"],
+    "asrVariants": ["sine mein dard", "sine me dard", "seenay mein dard", "seenay me dard", "sine me tez dard", "sine me bahut tez dard"],
+    "requiresFollowUp": true,
+    "relatedConcepts": ["SYM_BREATHLESSNESS", "SYM_SWEATING", "SYM_PALPITATIONS"]
+  },
+  {
+    "conceptId": "SYM_BREATHLESSNESS",
+    "category": "symptom",
+    "canonicalEnglish": "shortness of breath",
+    "devanagari": ["सांस फूलना", "सांस लेने में तकलीफ", "सांस लेने में कोई तकलीफ", "साँस फूलना"],
+    "romanized": ["saans phoolna", "saans lene mein takleef", "saans lene me takleef", "saans fulna", "saans lene me dikkat", "saans lene me pareshani"],
+    "colloquial": ["saans nahi aa rahi", "dam ghut raha hai", "saans lene me takleef hai"],
+    "asrVariants": ["sans foolna", "sans lene me takleef", "sans lene mein takleef"],
+    "requiresFollowUp": true,
+    "relatedConcepts": ["SYM_CHEST_PAIN", "SYM_COUGH"]
+  },
+  {
+    "conceptId": "SYM_PALPITATIONS",
+    "category": "symptom",
+    "canonicalEnglish": "palpitations",
+    "devanagari": ["धड़कन तेज़", "दिल की धड़कन तेज़"],
+    "romanized": ["dhadkan tez", "dil ki dhadkan tez"],
+    "colloquial": ["dil zor se dhadak raha hai", "ghabrahat ho rahi hai"],
+    "asrVariants": ["dhadakan tez"],
+    "relatedConcepts": ["SYM_CHEST_PAIN"]
+  },
+  {
+    "conceptId": "SYM_SWEATING",
+    "category": "symptom",
+    "canonicalEnglish": "excessive sweating",
+    "devanagari": ["बहुत पसीना आना", "पसीना"],
+    "romanized": ["bahut paseena aana", "paseena"],
+    "colloquial": ["paseena chhoot raha hai"],
+    "asrVariants": ["pasina"],
+    "relatedConcepts": ["SYM_CHEST_PAIN"]
+  },
+  {
+    "conceptId": "SYM_DIZZINESS",
+    "category": "symptom",
+    "canonicalEnglish": "dizziness",
+    "devanagari": ["चक्कर आना", "चक्कर"],
+    "romanized": ["chakkar aana", "chakkar"],
+    "colloquial": ["sar ghoom raha hai"],
+    "asrVariants": ["chaker aana"],
+    "relatedConcepts": ["SYM_HEADACHE", "SYM_WEAKNESS"]
+  },
+  {
+    "conceptId": "SYM_FAINTING",
+    "category": "symptom",
+    "canonicalEnglish": "fainting / loss of consciousness",
+    "devanagari": ["बेहोशी", "बेहोश हो जाना"],
+    "romanized": ["behoshi", "behosh ho jana"],
+    "colloquial": ["gir gaya tha", "hosh chala gaya tha"],
+    "asrVariants": ["behosi"],
+    "requiresFollowUp": true,
+    "relatedConcepts": ["SYM_DIZZINESS", "SYM_CHEST_PAIN"]
+  },
+  {
+    "conceptId": "SYM_WEAKNESS",
+    "category": "symptom",
+    "canonicalEnglish": "generalized weakness",
+    "devanagari": ["कमजोरी", "थकान"],
+    "romanized": ["kamzori", "thakaan", "kamjori"],
+    "colloquial": ["taakat nahi hai", "bahut thak jaate hain"],
+    "asrVariants": ["kamzori hai"],
+    "relatedConcepts": ["SYM_APPETITE_LOSS"]
+  },
+  {
+    "conceptId": "SYM_APPETITE_LOSS",
+    "category": "symptom",
+    "canonicalEnglish": "loss of appetite",
+    "devanagari": ["भूख न लगना", "भूख कम लगना"],
+    "romanized": ["bhookh na lagna", "bhookh kam lagna"],
+    "colloquial": ["khane ka man nahi karta"],
+    "asrVariants": ["bhukh na lagna"],
+    "relatedConcepts": ["SYM_WEIGHT_LOSS"]
+  },
+  {
+    "conceptId": "SYM_WEIGHT_LOSS",
+    "category": "symptom",
+    "canonicalEnglish": "unintentional weight loss",
+    "devanagari": ["वज़न कम होना", "वजन घटना"],
+    "romanized": ["wazan kam hona", "vajan ghatna"],
+    "colloquial": ["patla ho gaya hoon"],
+    "asrVariants": ["vazan kam hona"],
+    "relatedConcepts": ["SYM_APPETITE_LOSS"]
+  },
+  {
+    "conceptId": "SYM_INSOMNIA",
+    "category": "symptom",
+    "canonicalEnglish": "difficulty sleeping",
+    "devanagari": ["नींद न आना", "नींद की समस्या"],
+    "romanized": ["neend na aana", "neend ki samasya"],
+    "colloquial": ["raat ko neend nahi aati"],
+    "asrVariants": ["nind na ana"],
+    "relatedConcepts": []
+  },
+  {
+    "conceptId": "SYM_NIGHT_SWEATS",
+    "category": "symptom",
+    "canonicalEnglish": "night sweats",
+    "devanagari": ["रात को पसीना आना"],
+    "romanized": ["raat ko paseena aana"],
+    "colloquial": ["raat mein paseena chhoot jata hai"],
+    "asrVariants": [],
+    "relatedConcepts": ["SYM_WEIGHT_LOSS", "COND_TUBERCULOSIS"]
+  },
+  {
+    "conceptId": "SYM_ABDOMINAL_PAIN",
+    "category": "symptom",
+    "canonicalEnglish": "abdominal pain",
+    "devanagari": ["पेट दर्द", "पेट में दर्द"],
+    "romanized": ["pet dard", "pet mein dard"],
+    "colloquial": ["pet mein dard ho raha hai"],
+    "asrVariants": ["pate dard"],
+    "relatedConcepts": ["SYM_VOMITING", "SYM_DIARRHEA"]
+  },
+  {
+    "conceptId": "SYM_VOMITING",
+    "category": "symptom",
+    "canonicalEnglish": "vomiting",
+    "devanagari": ["उल्टी", "वमन"],
+    "romanized": ["ulti", "ulti hona", "vaman"],
+    "colloquial": ["ulti ho rahi hai"],
+    "asrVariants": ["ulti aa rahi hai"],
+    "relatedConcepts": ["SYM_ABDOMINAL_PAIN", "SYM_DIARRHEA"]
+  },
+  {
+    "conceptId": "SYM_DIARRHEA",
+    "category": "symptom",
+    "canonicalEnglish": "diarrhea / loose motions",
+    "devanagari": ["दस्त", "पतले दस्त"],
+    "romanized": ["dast", "patle dast", "loose motion"],
+    "colloquial": ["loose motion ho raha hai", "dast lag gaye hain"],
+    "asrVariants": ["dust"],
+    "relatedConcepts": ["SYM_VOMITING", "SYM_ABDOMINAL_PAIN"]
+  },
+  {
+    "conceptId": "SYM_CONSTIPATION",
+    "category": "symptom",
+    "canonicalEnglish": "constipation",
+    "devanagari": ["कब्ज़", "कब्ज"],
+    "romanized": ["kabz", "kabj"],
+    "colloquial": ["pet saaf nahi ho raha"],
+    "asrVariants": ["kabaj"],
+    "relatedConcepts": ["SYM_ABDOMINAL_PAIN"]
+  },
+  {
+    "conceptId": "SYM_JOINT_PAIN",
+    "category": "symptom",
+    "canonicalEnglish": "joint pain",
+    "devanagari": ["जोड़ों में दर्द", "जोड़ों का दर्द"],
+    "romanized": ["jodo mein dard", "jodon ka dard"],
+    "colloquial": ["ghutno mein dard ho raha hai"],
+    "asrVariants": ["jodo me dard"],
+    "relatedConcepts": ["SYM_BACK_PAIN"]
+  },
+  {
+    "conceptId": "SYM_BACK_PAIN",
+    "category": "symptom",
+    "canonicalEnglish": "back pain",
+    "devanagari": ["कमर दर्द", "पीठ दर्द"],
+    "romanized": ["kamar dard", "peeth dard"],
+    "colloquial": ["kamar mein dard hai"],
+    "asrVariants": ["kamardard"],
+    "relatedConcepts": ["SYM_JOINT_PAIN"]
+  },
+  {
+    "conceptId": "SYM_DYSURIA",
+    "category": "symptom",
+    "canonicalEnglish": "burning urination",
+    "devanagari": ["पेशाब में जलन"],
+    "romanized": ["peshab mein jalan"],
+    "colloquial": ["peshab karte waqt jalan hoti hai"],
+    "asrVariants": ["pesab me jalan"],
+    "relatedConcepts": []
+  },
+  {
+    "conceptId": "SYM_ITCHING",
+    "category": "symptom",
+    "canonicalEnglish": "itching",
+    "devanagari": ["खुजली"],
+    "romanized": ["khujli"],
+    "colloquial": ["bahut khujli ho rahi hai"],
+    "asrVariants": ["khujali"],
+    "relatedConcepts": ["SYM_SWELLING"]
+  },
+  {
+    "conceptId": "SYM_SWELLING",
+    "category": "symptom",
+    "canonicalEnglish": "swelling",
+    "devanagari": ["सूजन"],
+    "romanized": ["sujan"],
+    "colloquial": ["haath mein sujan hai", "pair sooj gaya hai"],
+    "asrVariants": ["soojan"],
+    "relatedConcepts": []
+  },
+  {
+    "conceptId": "SYM_SORE_THROAT",
+    "category": "symptom",
+    "canonicalEnglish": "sore throat",
+    "devanagari": ["गले में दर्द", "गले में खराश"],
+    "romanized": ["gale mein dard", "gale mein kharash"],
+    "colloquial": ["gala dukh raha hai"],
+    "asrVariants": ["gale me kharas"],
+    "relatedConcepts": ["SYM_COUGH"]
+  },
+  {
+    "conceptId": "SYM_EYE_REDNESS",
+    "category": "symptom",
+    "canonicalEnglish": "eye redness / pain",
+    "devanagari": ["आंखों में लाली", "आंख में दर्द"],
+    "romanized": ["aankhon mein laali", "aankh mein dard"],
+    "colloquial": ["aankh laal ho gayi hai"],
+    "asrVariants": ["ankho me lali"],
+    "relatedConcepts": []
+  },
+  {
+    "conceptId": "SYM_TINGLING_NUMBNESS",
+    "category": "symptom",
+    "canonicalEnglish": "tingling / numbness",
+    "devanagari": ["झनझनाहट", "सुन्न होना"],
+    "romanized": ["jhanjhanahat", "sunn hona"],
+    "colloquial": ["haath sunn ho gaya"],
+    "asrVariants": ["jhanjhanahat hai"],
+    "relatedConcepts": []
+  },
+  {
+    "conceptId": "COND_HYPERTENSION",
+    "category": "condition",
+    "canonicalEnglish": "hypertension / high blood pressure",
+    "devanagari": ["उच्च रक्तचाप", "बीपी हाई", "बीपी की बीमारी"],
+    "romanized": ["BP high", "bp zyada", "rakt chaap zyada", "BP ki bimari", "BP ki bimari nahi", "BP ki problem"],
+    "colloquial": ["BP thoda high rehta hai", "BP ki problem hai", "BP ka problem hai", "BP ka problem nahi hai", "BP ki bimari hai", "BP ki bimari nahi hai"],
+    "asrVariants": ["bp haai", "bp ki bimari"],
+    "relatedConcepts": ["SYM_HEADACHE", "SYM_DIZZINESS"]
+  },
+  {
+    "conceptId": "COND_DIABETES",
+    "category": "condition",
+    "canonicalEnglish": "diabetes",
+    "devanagari": ["मधुमेह", "शुगर की बीमारी"],
+    "romanized": ["madhumeh", "sugar ki bimari", "sugar"],
+    "colloquial": ["sugar hai", "sugar ki problem hai"],
+    "asrVariants": ["shugar"],
+    "relatedConcepts": ["SYM_WEAKNESS", "SYM_WEIGHT_LOSS"]
+  },
+  {
+    "conceptId": "COND_TUBERCULOSIS",
+    "category": "condition",
+    "canonicalEnglish": "tuberculosis (TB)",
+    "devanagari": ["तपेदिक", "टीबी"],
+    "romanized": ["tapedik", "TB", "tibi"],
+    "colloquial": ["TB ki bimari hai"],
+    "asrVariants": ["ti bi"],
+    "relatedConcepts": ["SYM_NIGHT_SWEATS", "SYM_WEIGHT_LOSS", "SYM_COUGH"]
+  },
+  {
+    "conceptId": "COND_ASTHMA",
+    "category": "condition",
+    "canonicalEnglish": "asthma",
+    "devanagari": ["दमा", "अस्थमा"],
+    "romanized": ["dama", "asthma"],
+    "colloquial": ["dame ki bimari hai"],
+    "asrVariants": ["dama hai"],
+    "relatedConcepts": ["SYM_BREATHLESSNESS", "SYM_COUGH"]
+  },
+  {
+    "conceptId": "COND_ANEMIA",
+    "category": "condition",
+    "canonicalEnglish": "anemia",
+    "devanagari": ["खून की कमी", "एनीमिया"],
+    "romanized": ["khoon ki kami", "khun ki kami"],
+    "colloquial": ["khoon kam hai"],
+    "asrVariants": ["khun ki kami hai"],
+    "relatedConcepts": ["SYM_WEAKNESS"]
+  },
+  {
+    "conceptId": "COND_JAUNDICE",
+    "category": "condition",
+    "canonicalEnglish": "jaundice",
+    "devanagari": ["पीलिया"],
+    "romanized": ["peeliya", "piliya"],
+    "colloquial": ["peeliya ho gaya hai"],
+    "asrVariants": ["piliya hai"],
+    "relatedConcepts": ["SYM_APPETITE_LOSS"]
+  },
+  {
+    "conceptId": "COND_HEART_DISEASE",
+    "category": "condition",
+    "canonicalEnglish": "heart disease",
+    "devanagari": ["दिल की बीमारी", "हृदय रोग"],
+    "romanized": ["dil ki bimari", "hriday rog"],
+    "colloquial": ["dil ki problem hai"],
+    "asrVariants": ["dil ki bimari hai"],
+    "relatedConcepts": ["SYM_CHEST_PAIN", "SYM_PALPITATIONS"]
+  },
+  {
+    "conceptId": "COND_KIDNEY_STONE",
+    "category": "condition",
+    "canonicalEnglish": "kidney stones (nephrolithiasis)",
+    "devanagari": ["पथरी", "गुर्दे की पथरी"],
+    "romanized": ["pathri", "gurde ki pathri", "kidney stone"],
+    "colloquial": ["pathri hai", "pathri ki problem"],
+    "asrVariants": ["pathri"],
+    "relatedConcepts": ["SYM_ABDOMINAL_PAIN"]
+  }
+]

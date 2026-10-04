@@ -1,0 +1,38 @@
+[
+  {
+    "canonicalId": "EMERG_CHEST_CRUSHING",
+    "nameEn": "Crushing Chest Pain / Heart Attack",
+    "severity": "CRITICAL",
+    "translations": {
+      "en": { "standard": "crushing chest pain", "variants": ["elephant on chest", "radiating pain to arm", "heart attack"] },
+      "hi": { "standard": "सीने में असहनीय दर्द", "transliteration": "seene mein asahniya dard", "variants": ["chaati phat rahi hai", "bahut tez dard haath tak"] },
+      "mr": { "standard": "छातीत असह्य वेदना", "transliteration": "chhatit asahya vedna", "variants": ["chhati dapun dharli", "haataat vedna jaat ahe"] },
+      "ta": { "standard": "தாங்க முடியாத நெஞ்சு வலி", "transliteration": "thanga mudiyadha nenju vali", "variants": ["kai varaikkum vali"] },
+      "gu": { "standard": "છાતીમાં અસહ્ય દુખાવો", "transliteration": "chhatima asahya dukhavo", "variants": ["haath sudhi dukhvo jaay che"] }
+    }
+  },
+  {
+    "canonicalId": "EMERG_UNRESPONSIVE",
+    "nameEn": "Unresponsive / Comatose",
+    "severity": "CRITICAL",
+    "translations": {
+      "en": { "standard": "unresponsive", "variants": ["not waking up", "comatose", "cannot wake patient", "gasping respiration"] },
+      "hi": { "standard": "कोई प्रतिक्रिया नहीं", "transliteration": "koi pratikriya nahi", "variants": ["hosh nahi aa raha", "bol nahi pa rahe"] },
+      "mr": { "standard": "प्रतिसाद नाही", "transliteration": "pratisad nahi", "variants": ["uttar det nahi", "hosh aala nahi"] },
+      "ta": { "standard": "மறுமொழி இல்லை", "transliteration": "marumozhi illai", "variants": ["pesa mudiyavillai", "nenaivu illai"] },
+      "gu": { "standard": "કોઈ જવાબ નથી", "transliteration": "koi javab nathi", "variants": ["bolta nathi", "bhaan aavtu nathi"] }
+    }
+  },
+  {
+    "canonicalId": "EMERG_STROKE_FAST",
+    "nameEn": "Acute Stroke (FAST Signs)",
+    "severity": "CRITICAL",
+    "translations": {
+      "en": { "standard": "facial droop and slurred speech", "variants": ["paralysis of one side", "arm weakness", "stroke symptoms"] },
+      "hi": { "standard": "लकवा के लक्षण", "transliteration": "lakwa ke lakshan", "variants": ["chehra tedha ho gaya", "haath uthaya nahi ja raha", "aawaz ladkhada rahi hai", "falij"] },
+      "mr": { "standard": "पक्षाघात लक्षणे", "transliteration": "pakshaghat lakshane", "variants": ["ek baju thambli", "bolne ladkhadat ahe", "chehra tirpa zala"] },
+      "ta": { "standard": "பக்கவாதம் அறிகுறிகள்", "transliteration": "pakkavatham arikurigal", "variants": ["oru pakkam seyalilanthathu", "vaai konaruthu"] },
+      "gu": { "standard": "લકવાના ચિહ્નો", "transliteration": "lakvana chihno", "variants": ["ek baju nirdesh", "modhu tedhu thayu", "bolvama ladkhadaat"] }
+    }
+  }
+]

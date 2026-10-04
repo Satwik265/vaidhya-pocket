@@ -1,0 +1,98 @@
+[
+  {
+    "canonicalId": "RX_PARACETAMOL",
+    "genericName": "Paracetamol / Acetaminophen",
+    "commonBrands": ["Crocin", "Dolo", "Dolo 650", "Calpol", "Pacimol"],
+    "translations": {
+      "en": { "standard": "paracetamol", "variants": ["dolo 650", "crocin", "calpol", "tylenol", "acetaminophen"], "asrErrors": ["parisitamol", "dolow"] },
+      "hi": { "standard": "पैरासिटामोल", "transliteration": "paracetamol", "variants": ["dolo", "crocin", "bukhar ki goli"] },
+      "mr": { "standard": "पॅरासिटामॉल", "transliteration": "paracetamol", "variants": ["dolo", "crocin", "tapachi goli"] },
+      "ta": { "standard": "பாராசிட்டமால்", "transliteration": "paracetamol", "variants": ["dolo", "crocin", "kaichal mathirai"] },
+      "gu": { "standard": "પેરાસિટામોલ", "transliteration": "paracetamol", "variants": ["dolo", "crocin", "tavni goli"] }
+    }
+  },
+  {
+    "canonicalId": "RX_METFORMIN",
+    "genericName": "Metformin",
+    "commonBrands": ["Glycomet", "Gliphage", "Obimet", "Cetapin"],
+    "translations": {
+      "en": { "standard": "metformin", "variants": ["glycomet", "gliphage", "metfor min"], "asrErrors": ["met for men", "met forming", "meat formin"] },
+      "hi": { "standard": "मेटफॉर्मिन", "transliteration": "metformin", "variants": ["sugar ki goli", "glycomet", "sugar wali davai"] },
+      "mr": { "standard": "मेटफॉर्मिन", "transliteration": "metformin", "variants": ["sugar chi goli", "glycomet", "sakhar goli"] },
+      "ta": { "standard": "மெட்பார்மின்", "transliteration": "metformin", "variants": ["sugar mathirai", "glycomet"] },
+      "gu": { "standard": "મેટફોર્મિન", "transliteration": "metformin", "variants": ["sugar ni goli", "glycomet"] }
+    }
+  },
+  {
+    "canonicalId": "RX_AMLODIPINE",
+    "genericName": "Amlodipine",
+    "commonBrands": ["Amlong", "Amlip", "Stamlo", "Amlovas"],
+    "translations": {
+      "en": { "standard": "amlodipine", "variants": ["amlong", "stamlo", "amlip", "blood pressure pill"], "asrErrors": ["amlo dip in", "amlo deep"] },
+      "hi": { "standard": "एम्लोडिपिन", "transliteration": "amlodipine", "variants": ["bp ki goli", "amlong", "bp wali goli"] },
+      "mr": { "standard": "ॲम्लोडिपिन", "transliteration": "amlodipine", "variants": ["bp chi goli", "amlong"] },
+      "ta": { "standard": "அம்லோடிபைன்", "transliteration": "amlodipine", "variants": ["bp mathirai", "amlong"] },
+      "gu": { "standard": "એમ્લોડિપિન", "transliteration": "amlodipine", "variants": ["bp ni goli", "amlong"] }
+    }
+  },
+  {
+    "canonicalId": "RX_ATORVASTATIN",
+    "genericName": "Atorvastatin",
+    "commonBrands": ["Atorva", "Lipitor", "Storvas", "Tonact"],
+    "translations": {
+      "en": { "standard": "atorvastatin", "variants": ["atorva", "cholesterol medication", "statin"], "asrErrors": ["ator va statin"] },
+      "hi": { "standard": "एटोरवास्टेटिन", "transliteration": "atorvastatin", "variants": ["cholesterol ki goli", "atorva"] },
+      "mr": { "standard": "अ‍ॅटोरव्हास्टॅटिन", "transliteration": "atorvastatin", "variants": ["cholesterol chi goli", "atorva"] },
+      "ta": { "standard": "அடோர்வாஸ்டேடின்", "transliteration": "atorvastatin", "variants": ["cholesterol mathirai", "atorva"] },
+      "gu": { "standard": "એટોરવાસ્ટેટિન", "transliteration": "atorvastatin", "variants": ["cholesterol ni goli", "atorva"] }
+    }
+  },
+  {
+    "canonicalId": "RX_OMEPRAZOLE",
+    "genericName": "Omeprazole / Pantoprazole (PPI)",
+    "commonBrands": ["Omez", "Pan 40", "Pantocid", "Omee"],
+    "translations": {
+      "en": { "standard": "omeprazole", "variants": ["pantoprazole", "omez", "pan 40", "antacid"], "asrErrors": ["oh mess", "pan forty"] },
+      "hi": { "standard": "ओमेप्राज़ोल", "transliteration": "omeprazole", "variants": ["acidity ki goli", "gas ki goli", "omez", "pan 40"] },
+      "mr": { "standard": "ओमेप्रॅझोल", "transliteration": "omeprazole", "variants": ["pitta chi goli", "gas chi goli", "omez", "pan 40"] },
+      "ta": { "standard": "ஒமேபிரசோல்", "transliteration": "omeprazole", "variants": ["gas mathirai", "acidity mathirai", "omez", "pan 40"] },
+      "gu": { "standard": "ઓમેપ્રાઝોલ", "transliteration": "omeprazole", "variants": ["gas ni goli", "acidity ni goli", "omez", "pan 40"] }
+    }
+  },
+  {
+    "canonicalId": "RX_AMOXICILLIN",
+    "genericName": "Amoxicillin / Clavulanate",
+    "commonBrands": ["Augmentin", "Moxikind", "Amoxyclav", "Novamox"],
+    "translations": {
+      "en": { "standard": "amoxicillin", "variants": ["amoxyclav", "augmentin", "antibiotic capsule"], "asrErrors": ["amoxy cillin", "aug ment in"] },
+      "hi": { "standard": "एमोक्सिसिलिन", "transliteration": "amoxicillin", "variants": ["antibiotic goli", "augmentin", "moxikind"] },
+      "mr": { "standard": "अमोक्सिसिलिन", "transliteration": "amoxicillin", "variants": ["antibiotic", "augmentin"] },
+      "ta": { "standard": "அமாக்சிசிலின்", "transliteration": "amoxicillin", "variants": ["antibiotic mathirai", "augmentin"] },
+      "gu": { "standard": "એમોક્સિસિલિન", "transliteration": "amoxicillin", "variants": ["antibiotic goli", "augmentin"] }
+    }
+  },
+  {
+    "canonicalId": "RX_SALBUTAMOL",
+    "genericName": "Salbutamol / Albuterol",
+    "commonBrands": ["Asthalin", "Ventolin", "Aerocort"],
+    "translations": {
+      "en": { "standard": "salbutamol", "variants": ["asthalin inhaler", "puff", "inhaler", "bronchodilator"], "asrErrors": ["astha lin", "inheler"] },
+      "hi": { "standard": "सैल्बुटामोल", "transliteration": "salbutamol", "variants": ["asthalin", "sans ka inhaler", "dama ka pump"] },
+      "mr": { "standard": "साल्बुटामॉल", "transliteration": "salbutamol", "variants": ["asthalin", "damyacha pump", "inhaler"] },
+      "ta": { "standard": "சல்பூட்டமால்", "transliteration": "salbutamol", "variants": ["inhaler", "asthalin pump", "moochu pump"] },
+      "gu": { "standard": "સાલ્બ્યુટામોલ", "transliteration": "salbutamol", "variants": ["asthalin pump", "dam no inhaler"] }
+    }
+  },
+  {
+    "canonicalId": "RX_INSULIN",
+    "genericName": "Insulin (Human / Analog)",
+    "commonBrands": ["Lantus", "Mixtard", "Novorapid", "Huminsulin"],
+    "translations": {
+      "en": { "standard": "insulin", "variants": ["insulin injection", "mixtard", "lantus pen", "sugar injection"], "asrErrors": ["in sulin", "insuline"] },
+      "hi": { "standard": "इंसुलिन", "transliteration": "insulin", "variants": ["sugar ka injection", "insulin ki sui", "lantus"] },
+      "mr": { "standard": "इन्सुलिन", "transliteration": "insulin", "variants": ["sugar cha injection", "insulin sui"] },
+      "ta": { "standard": "இன்சுலின்", "transliteration": "insulin", "variants": ["sugar oosi", "insulin injection"] },
+      "gu": { "standard": "ઇન્સ્યુલિન", "transliteration": "insulin", "variants": ["sugar no injection", "insulin sui"] }
+    }
+  }
+]

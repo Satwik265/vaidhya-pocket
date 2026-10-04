@@ -1,0 +1,109 @@
+{
+  "language": "hi",
+  "locale": "hi-IN",
+  "entries": [
+    {
+      "canonicalConceptId": "SYM_CHEST_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "सीने में दर्द",
+      "transliteration": "seene mein dard",
+      "commonSpellingVariants": ["chaati mein dard", "seena dard", "sine me dard"],
+      "commonColloquialVariants": ["seena bhari lag raha hai", "seene mein jalan", "seena dab raha hai", "chaati mein jakdan"],
+      "commonSpeechRecognitionErrors": ["cinema dard", "sine m dard", "siname dard"]
+    },
+    {
+      "canonicalConceptId": "SYM_BREATHLESSNESS",
+      "clinicalCategory": "symptom",
+      "nativeScript": "सांस फूलना",
+      "transliteration": "saans phoolna",
+      "commonSpellingVariants": ["saans phulna", "saans lene mein takleef", "dam ghutna"],
+      "commonColloquialVariants": ["saans nahi aa raha", "dam ghut raha hai", "hawa nahi mil rahi"],
+      "commonSpeechRecognitionErrors": ["sans phoolna", "saas fulna", "saans foolna"]
+    },
+    {
+      "canonicalConceptId": "SYM_FEVER",
+      "clinicalCategory": "symptom",
+      "nativeScript": "बुखार",
+      "transliteration": "bukhar",
+      "commonSpellingVariants": ["bukhaar", "jwar", "tap"],
+      "commonColloquialVariants": ["badan garam hai", "bahut tez bukhar", "halka bukhar", "thand lag ke bukhar"],
+      "commonSpeechRecognitionErrors": ["bukhr", "buhar"]
+    },
+    {
+      "canonicalConceptId": "SYM_HEADACHE",
+      "clinicalCategory": "symptom",
+      "nativeScript": "सिरदर्द",
+      "transliteration": "sirdard",
+      "commonSpellingVariants": ["sar dard", "sar mein dard", "sirdard"],
+      "commonColloquialVariants": ["sar phat raha hai", "sar bhari lag raha hai", "aadhe sar mein dard"],
+      "commonSpeechRecognitionErrors": ["sir dard", "sar drd"]
+    },
+    {
+      "canonicalConceptId": "SYM_COUGH",
+      "clinicalCategory": "symptom",
+      "nativeScript": "खांसी",
+      "transliteration": "khansi",
+      "commonSpellingVariants": ["khaansi", "khasi", "balgam"],
+      "commonColloquialVariants": ["sookhi khansi", "balgam wali khansi", "khansi mein khoon"],
+      "commonSpeechRecognitionErrors": ["khasi", "khaasi"]
+    },
+    {
+      "canonicalConceptId": "SYM_ABDOMINAL_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "पेट दर्द",
+      "transliteration": "pet dard",
+      "commonSpellingVariants": ["pet mein dard", "pet dard", "pet dukh raha hai"],
+      "commonColloquialVariants": ["pet mein marod", "pet mein jalan", "pet mein ainthana"],
+      "commonSpeechRecognitionErrors": ["peth dard", "pet drd"]
+    },
+    {
+      "canonicalConceptId": "DIS_HYPERTENSION",
+      "clinicalCategory": "condition",
+      "nativeScript": "उच्च रक्तचाप",
+      "transliteration": "high bp",
+      "commonSpellingVariants": ["bp ki bimari", "bp high", "blood pressure"],
+      "commonColloquialVariants": ["bp badha hua hai", "bp ki problem", "bp ka marij"],
+      "commonSpeechRecognitionErrors": ["b p", "beep"]
+    },
+    {
+      "canonicalConceptId": "DIS_DIABETES",
+      "clinicalCategory": "condition",
+      "nativeScript": "मधुमेह",
+      "transliteration": "madhumeh",
+      "commonSpellingVariants": ["sugar ki bimari", "sugar", "chini ki bimari"],
+      "commonColloquialVariants": ["sugar hai", "sugar ka problem", "sugar level badha hai"],
+      "commonSpeechRecognitionErrors": ["suger", "sugr"]
+    },
+    {
+      "canonicalConceptId": "RX_METFORMIN",
+      "clinicalCategory": "medication",
+      "nativeScript": "मेटफॉर्मिन",
+      "transliteration": "metformin",
+      "commonSpellingVariants": ["glycomet", "sugar ki goli"],
+      "commonColloquialVariants": ["sugar wali davai", "glycomet 500"],
+      "commonSpeechRecognitionErrors": ["met for men", "meat formin"]
+    },
+    {
+      "canonicalConceptId": "RX_PARACETAMOL",
+      "clinicalCategory": "medication",
+      "nativeScript": "पैरासिटामोल",
+      "transliteration": "paracetamol",
+      "commonSpellingVariants": ["crocin", "dolo", "dolo 650"],
+      "commonColloquialVariants": ["bukhar ki goli", "crocin tablet"],
+      "commonSpeechRecognitionErrors": ["parisitamol", "dolow"]
+    }
+  ],
+  "negationTriggers": [
+    "nahi", "nahin", "nai", "na", "koi nahi", "bilkul nahi", "nahi hai", "nahi hua", "nahi hui", "kabhi nahi", "abhi tak nahi", "mukht"
+  ],
+  "temporalPatterns": [
+    { "regex": "(\\d+)\\s*(din|dino|dinon)\\s*se", "unit": "days" },
+    { "regex": "(\\d+)\\s*(hafte|hafton)\\s*se", "unit": "weeks" },
+    { "regex": "(\\d+)\\s*(mahine|mahino|mahinon)\\s*se", "unit": "months" },
+    { "regex": "(\\d+)\\s*(saal|varsh)\\s*se", "unit": "years" },
+    { "regex": "aaj\\s*se", "unit": "days", "value": 0 },
+    { "regex": "kal\\s*se", "unit": "days", "value": 1 },
+    { "regex": "raat\\s*se", "unit": "hours", "value": 12 },
+    { "regex": "pichhle\\s*hafte\\s*se", "unit": "weeks", "value": 1 }
+  ]
+}

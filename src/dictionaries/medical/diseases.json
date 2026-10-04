@@ -1,0 +1,93 @@
+[
+  {
+    "canonicalId": "DIS_DIABETES",
+    "nameEn": "Diabetes Mellitus",
+    "icd10": "E11.9",
+    "translations": {
+      "en": { "standard": "diabetes", "variants": ["sugar disease", "type 2 diabetes", "hyperglycemia", "high blood sugar", "sugar"] },
+      "hi": { "standard": "मधुमेह", "transliteration": "madhumeh", "variants": ["sugar ki bimari", "sugar hai", "chini ki bimari", "shugar", "sugar"] },
+      "mr": { "standard": "मधुमेह", "transliteration": "madhumeh", "variants": ["sakhar rog", "sugar ahe", "shakarecha tras", "shugar", "sugar", "sakhar"] },
+      "ta": { "standard": "நீரிழிவு நோய்", "transliteration": "neerizhivu noi", "variants": ["sakkari noi", "sugar irukku", "sarkarai viyadhy", "sugar"] },
+      "gu": { "standard": "મધુપ્રમેહ", "transliteration": "madhuprameh", "variants": ["sugar che", "sugar ni bimari", "shakkar bimari", "shugar", "sugar"] }
+    },
+    "isChronic": true
+  },
+  {
+    "canonicalId": "DIS_HYPERTENSION",
+    "nameEn": "Hypertension / High Blood Pressure",
+    "icd10": "I10",
+    "translations": {
+      "en": { "standard": "hypertension", "variants": ["high blood pressure", "high BP", "BP high", "elevated blood pressure", "bp", "blood pressure"] },
+      "hi": { "standard": "उच्च रक्तचाप", "transliteration": "high bp", "variants": ["bp ki bimari", "bp high hai", "raktchaap", "bp badha hua", "bp", "raktchap", "रक्तचाप", "उच्च रक्तचाप"] },
+      "mr": { "standard": "उच्च रक्तदाब", "transliteration": "high bp", "variants": ["bp cha tras", "raktadaab vadhalay", "bp vadhla ahe", "bp", "raktadaab", "raktadab", "रक्तदाब", "उच्च रक्तदाब"] },
+      "ta": { "standard": "உயர் ரத்த அழுத்தம்", "transliteration": "uyar ratha azhutham", "variants": ["high bp irukku", "bp adhigam", "ratha kothippu", "bp", "ரத்த அழுத்தம்"] },
+      "gu": { "standard": "હાઈ બ્લડ પ્રેશર", "transliteration": "high blood pressure", "variants": ["bp ni bimari", "bp vadhi gayu che", "lohi nu dabhan", "bp", "બ્લડ પ્રેશર", "રક્તચાપ"] }
+    },
+    "isChronic": true
+  },
+  {
+    "canonicalId": "DIS_ASTHMA",
+    "nameEn": "Bronchial Asthma",
+    "icd10": "J45.909",
+    "translations": {
+      "en": { "standard": "asthma", "variants": ["bronchial asthma", "wheezing", "reactive airway disease"] },
+      "hi": { "standard": "दमा", "transliteration": "dama", "variants": ["asthma", "sans ki bimari"] },
+      "mr": { "standard": "दमा", "transliteration": "dama", "variants": ["asthma cha tras", "dama ahe"] },
+      "ta": { "standard": "ஆஸ்துமா", "transliteration": "asthma", "variants": ["eppu noi", "moochu thinaral noi"] },
+      "gu": { "standard": "દમ", "transliteration": "dam", "variants": ["asthma", "dam ni bimari"] }
+    },
+    "isChronic": true
+  },
+  {
+    "canonicalId": "DIS_TUBERCULOSIS",
+    "nameEn": "Tuberculosis",
+    "icd10": "A15.0",
+    "translations": {
+      "en": { "standard": "tuberculosis", "variants": ["TB", "pulmonary tuberculosis", "koch's disease"] },
+      "hi": { "standard": "क्षय रोग", "transliteration": "kshay rog", "variants": ["tb", "tapedik", "tb ki bimari"] },
+      "mr": { "standard": "क्षयरोग", "transliteration": "kshayrog", "variants": ["tb", "kshayrogacha aajar"] },
+      "ta": { "standard": "காசநோய்", "transliteration": "kaasa noi", "variants": ["tb", "kaasam", "kasanoi"] },
+      "gu": { "standard": "ક્ષય રોગ", "transliteration": "kshay rog", "variants": ["tb", "rajrog"] }
+    },
+    "isChronic": false
+  },
+  {
+    "canonicalId": "DIS_HEART_DISEASE",
+    "nameEn": "Coronary Artery Disease / Cardiac Disease",
+    "icd10": "I25.10",
+    "translations": {
+      "en": { "standard": "heart disease", "variants": ["coronary artery disease", "heart attack history", "cardiac problem", "stent inserted", "bypass done"] },
+      "hi": { "standard": "दिल की बीमारी", "transliteration": "dil ki bimari", "variants": ["heart attack aachuka hai", "heart ki problem", "dil ka daura"] },
+      "mr": { "standard": "हृदयरोग", "transliteration": "hrudayrog", "variants": ["heart cha aajar", "heart attack aala hota", "hrudayachi bimari"] },
+      "ta": { "standard": "இதய நோய்", "transliteration": "idhaya noi", "variants": ["heart attack vanthirukku", "heart problem", "nenju kootu noi"] },
+      "gu": { "standard": "હૃદય રોગ", "transliteration": "hriday rog", "variants": ["heart ni bimari", "heart attack aavyo hato", "dil ni taklif"] }
+    },
+    "isChronic": true
+  },
+  {
+    "canonicalId": "DIS_JAUNDICE",
+    "nameEn": "Jaundice / Acute Hepatitis",
+    "icd10": "R17",
+    "translations": {
+      "en": { "standard": "jaundice", "variants": ["yellow jaundice", "hepatitis", "liver infection"] },
+      "hi": { "standard": "पीलिया", "transliteration": "peeliya", "variants": ["piliya", "aankhen peeli ho gayi", "jaundice"] },
+      "mr": { "standard": "कावीळ", "transliteration": "kaavil", "variants": ["kavil", "dole pivle padne"] },
+      "ta": { "standard": "மஞ்சள் காமாலை", "transliteration": "manjal kaamalai", "variants": ["kamalai", "kannu manjal aachu"] },
+      "gu": { "standard": "કમળો", "transliteration": "kamlo", "variants": ["piliyo", "kamalo", "aankho pili thai"] }
+    },
+    "isChronic": false
+  },
+  {
+    "canonicalId": "COND_KIDNEY_STONE",
+    "nameEn": "Kidney Stones / Nephrolithiasis",
+    "icd10": "N20.0",
+    "translations": {
+      "en": { "standard": "kidney stone", "variants": ["nephrolithiasis", "renal calculus", "kidney stones", "stones"] },
+      "hi": { "standard": "पथरी", "transliteration": "pathri", "variants": ["gurde ki pathri", "pathari", "pathri hai"] },
+      "mr": { "standard": "खडे", "transliteration": "khada", "variants": ["mutkhada", "kidney stone"] },
+      "ta": { "standard": "சிறுநீரகக் கல்", "transliteration": "siruneeraga kal", "variants": ["kidney stone"] },
+      "gu": { "standard": "પથરી", "transliteration": "pathari", "variants": ["kidney stone"] }
+    },
+    "isChronic": false
+  }
+]

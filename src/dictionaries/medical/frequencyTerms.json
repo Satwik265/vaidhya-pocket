@@ -1,0 +1,50 @@
+[
+  {
+    "canonicalId": "FREQ_ONCE_DAILY",
+    "nameEn": "Once Daily (OD)",
+    "abbreviation": "OD",
+    "translations": {
+      "en": { "standard": "once daily", "variants": ["once a day", "daily once", "OD", "every morning", "every night"] },
+      "hi": { "standard": "दिन में एक बार", "transliteration": "din mein ek baar", "variants": ["roj ek baar", "subah ek baar", "ek time"] },
+      "mr": { "standard": "दिवसातून एकदा", "transliteration": "divsaatun ekda", "variants": ["roj ekda", "sakali ekda"] },
+      "ta": { "standard": "நாளைக்கு ஒரு முறை", "transliteration": "naalaikku oru murai", "variants": ["oru vela", "dhinam oru murai"] },
+      "gu": { "standard": "દિવસમાં એક વાર", "transliteration": "divasma ek vaar", "variants": ["roj ek vaar", "savare ek vaar"] }
+    }
+  },
+  {
+    "canonicalId": "FREQ_TWICE_DAILY",
+    "nameEn": "Twice Daily (BD / BID)",
+    "abbreviation": "BD",
+    "translations": {
+      "en": { "standard": "twice daily", "variants": ["twice a day", "two times a day", "BID", "BD", "morning and night"] },
+      "hi": { "standard": "दिन में दो बार", "transliteration": "din mein do baar", "variants": ["subah sham", "do time", "do baar"] },
+      "mr": { "standard": "दिवसातून दोनदा", "transliteration": "divsaatun donda", "variants": ["sakali aani sandhyakali", "don vela"] },
+      "ta": { "standard": "நாளைக்கு இரண்டு முறை", "transliteration": "naalaikku irandu murai", "variants": ["kaalai maalai", "irandu vela"] },
+      "gu": { "standard": "દિવસમાં બે વાર", "transliteration": "divasma be vaar", "variants": ["savare ane sanje", "be time"] }
+    }
+  },
+  {
+    "canonicalId": "FREQ_THRICE_DAILY",
+    "nameEn": "Thrice Daily (TDS / TID)",
+    "abbreviation": "TDS",
+    "translations": {
+      "en": { "standard": "three times a day", "variants": ["thrice daily", "TID", "TDS", "morning afternoon night"] },
+      "hi": { "standard": "दिन में तीन बार", "transliteration": "din mein teen baar", "variants": ["subah dopahar sham", "teen time"] },
+      "mr": { "standard": "दिवसातून तीनदा", "transliteration": "divsaatun teenda", "variants": ["teen vela"] },
+      "ta": { "standard": "நாளைக்கு மூன்று முறை", "transliteration": "naalaikku moondru murai", "variants": ["moondru vela"] },
+      "gu": { "standard": "દિવસમાં ત્રણ વાર", "transliteration": "divasma tran vaar", "variants": ["tran time"] }
+    }
+  },
+  {
+    "canonicalId": "FREQ_AFTER_MEALS",
+    "nameEn": "After Meals (PC)",
+    "abbreviation": "PC",
+    "translations": {
+      "en": { "standard": "after food", "variants": ["after meals", "post meal", "khana khane ke baad"] },
+      "hi": { "standard": "खाने के बाद", "transliteration": "khane ke baad", "variants": ["bhojan ke baad", "khana khakar"] },
+      "mr": { "standard": "जेवणानंतर", "transliteration": "jevananantar", "variants": ["jevan zalyavar"] },
+      "ta": { "standard": "சாப்பிட்ட பிறகு", "transliteration": "saapitta piragu", "variants": ["unavukku pin"] },
+      "gu": { "standard": "જમ્યા પછી", "transliteration": "jamya pachhi", "variants": ["khadha pachhi"] }
+    }
+  }
+]

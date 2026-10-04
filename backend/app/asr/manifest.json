@@ -1,0 +1,81 @@
+{
+  "_comment": "MedScribeAI ASR Model Manifest — Phase 8.6. Status is DERIVED at runtime, not hardcoded.",
+  "schema_version": "1.2",
+  "model_id": "meetsync-indic-conformer-onnx-int8",
+  "provenance": {
+    "original_model": "ai4bharat/indicconformer_stt_hi_hybrid_ctc_rnnt_large",
+    "original_authors": "AI4Bharat",
+    "original_license": "MIT",
+    "conversion_repository": "meetsync/indic-conformer-onnx-sherpa",
+    "conversion_repository_commit": "e19ba0d2f49c243fe4ce79ae3334526a03e753ae",
+    "hf_snapshot_dir": "models--meetsync--indic-conformer-onnx-sherpa/snapshots/e19ba0d2f49c243fe4ce79ae3334526a03e753ae",
+    "conversion_framework": "sherpa-onnx",
+    "original_framework": "NVIDIA NeMo",
+    "quantization": "int8",
+    "converter_note": "Third-party ONNX/INT8 conversion. NOT an official AI4Bharat release."
+  },
+  "deployment": {
+    "primary_path": "models/asr/indic-conformer/model.int8.onnx",
+    "fallback_path": "~/.cache/huggingface/hub/models--meetsync--indic-conformer-onnx-sherpa/snapshots/e19ba0d2f49c243fe4ce79ae3334526a03e753ae/model.int8.onnx",
+    "note": "Primary deployment copy (made Phase 8.6): models/asr/indic-conformer/. HF cache is user-local fallback only."
+  },
+  "model_file": "model.int8.onnx",
+  "model_sha256": "b99a01834cd1a72cd9be682a0b9543df6b152ef7dfceba88d3dbf59fbb77075d",
+  "model_size_bytes": 196977855,
+  "vocab_file": "vocab.json",
+  "vocab_sha256": "source: sulabhkatiyar/indicconformer-120m-onnx hi/vocab.json",
+  "tokens_file": "tokens.txt",
+  "runtime": "onnxruntime-cpu",
+  "runtime_note": "sherpa-onnx transducer files (encoder/decoder/joiner) not present in this snapshot; using CTC path with onnxruntime-cpu.",
+  "onnx_contract": {
+    "_verified_against": "physical model file at D:/MedscribeAI/models/asr/indic-conformer/model.int8.onnx",
+    "_onnx_metadata": {
+      "producer_name": "onnx.quantize",
+      "model_type": "EncDecCTCModelBPE",
+      "model_author": "ai4bharat",
+      "vocab_size": "5633",
+      "subsampling_factor": "4",
+      "normalize_type": "per_feature"
+    },
+    "inputs": [
+      {"name": "processed_signal",        "shape": ["batch", 80, "time"], "dtype": "float32"},
+      {"name": "processed_signal_length",  "shape": ["batch"],            "dtype": "int64"}
+    ],
+    "outputs": [
+      {"name": "log_probs",     "shape": ["batch", "time_out", 5633], "dtype": "float32"},
+      {"name": "output_length", "shape": ["batch"],                   "dtype": "int64"}
+    ],
+    "vocab_size": 5633,
+    "sample_rate_hz": 16000,
+    "n_mel_channels": 80,
+    "ctc_blank_token_index": 5632,
+    "ctc_blank_token_label": "<blk>",
+    "ctc_blank_note": "NeMo EncDecCTCModelBPE convention: blank = vocab_size-1 = 5632. BPE tokens occupy indices 0..5631."
+  },
+  "supported_languages": {
+    "asr": {
+      "codes": ["as", "bn", "brx", "gu", "hi", "kn", "ks", "mr"],
+      "names": ["Assamese", "Bengali", "Bodo", "Gujarati", "Hindi", "Kannada", "Kashmiri", "Marathi"],
+      "note": "Tamil (ta) is NOT supported by this ASR model. Tamil support via NLP/NER only."
+    },
+    "ocr": {
+      "codes": ["eng", "hin"],
+      "names": ["English", "Hindi (Devanagari)"],
+      "note": "Requires Tesseract binary installation. Additional language packs (mar, tam, guj) unverified until binary installed."
+    },
+    "nlp_ner": {
+      "codes": ["en", "hi", "mr", "ta", "gu"],
+      "note": "Deterministic NLP/NER supports Tamil and Gujarati independently of ASR."
+    }
+  },
+  "availability": {
+    "status": "DERIVED_AT_RUNTIME",
+    "note": "Runtime derives status only after: file_exists AND size_valid AND sha256_valid AND onnx_loads AND tensor_contract_verified AND inference_succeeds. Do not hardcode AVAILABLE.",
+    "gate_semantics": {
+      "ASR_MODEL": ["AVAILABLE", "INVALID_CHECKSUM", "LOAD_FAILED", "UNAVAILABLE"],
+      "ASR": ["SMOKE_VALIDATED", "INFERENCE_VALIDATED", "ACCURACY_VALIDATED", "FAILED"],
+      "OCR_MODEL": ["AVAILABLE", "UNAVAILABLE", "FAILED"],
+      "OCR": ["ENGINE_VALIDATED", "RECOGNITION_VALIDATED", "FAILED"]
+    }
+  }
+}

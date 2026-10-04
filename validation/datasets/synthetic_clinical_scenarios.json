@@ -1,0 +1,148 @@
+{
+  "SCENARIO_A": {
+    "title": "Routine Primary Care (English)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "I have had a cough for five days. It is worse at night.",
+    "language": "en",
+    "expected_concepts": [
+      "cough"
+    ],
+    "expected_assertion": "PRESENT",
+    "expected_temporality": "CURRENT",
+    "expected_experiencer": "PATIENT",
+    "expected_red_flag": false
+  },
+  "SCENARIO_B": {
+    "title": "Acute Red-Flag (Hindi)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "मुझे कल से सीने में दर्द है और सांस लेने में तकलीफ हो रही है।",
+    "language": "hi",
+    "expected_concepts": [
+      "chest_pain",
+      "dyspnea"
+    ],
+    "expected_assertion": "PRESENT",
+    "expected_temporality": "CURRENT",
+    "expected_experiencer": "PATIENT",
+    "expected_red_flag": true,
+    "expected_action": "EMERGENCY_ESCALATION"
+  },
+  "SCENARIO_C": {
+    "title": "Negation Scope (Hindi/Hinglish)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "BP ka problem nahi hai lekin sar dard bahut rehta hai.",
+    "language": "hi",
+    "expected_facts": [
+      {
+        "concept_id": "hypertension",
+        "assertion": "NEGATED"
+      },
+      {
+        "concept_id": "headache",
+        "assertion": "PRESENT"
+      }
+    ]
+  },
+  "SCENARIO_D": {
+    "title": "Marathi Clinical Case",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "मला दोन दिवसांपासून ताप आणि खोकला आहे.",
+    "language": "mr",
+    "expected_concepts": [
+      "fever",
+      "cough"
+    ],
+    "expected_assertion": "PRESENT"
+  },
+  "SCENARIO_E": {
+    "title": "Code-Switching (Hinglish)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "Kal se headache hai aur fever bhi hai.",
+    "language": "hi",
+    "expected_concepts": [
+      "headache",
+      "fever"
+    ],
+    "expected_assertion": "PRESENT"
+  },
+  "SCENARIO_F": {
+    "title": "Medication Dosage (Hindi)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "Main amlodipine 5 mg roz subah leta hoon.",
+    "language": "hi",
+    "expected_concepts": [
+      "amlodipine"
+    ],
+    "expected_category": "MEDICATION"
+  },
+  "SCENARIO_G": {
+    "title": "Allergy Reporting (Hindi)",
+    "label": "SYNTHETIC TEST DATA",
+    "input_utterance": "Penicillin se rash hota hai.",
+    "language": "hi",
+    "expected_concepts": [
+      "penicillin_allergy"
+    ],
+    "expected_category": "ALLERGY"
+  },
+  "SCENARIO_H": {
+    "title": "Medication/Allergy Conflict",
+    "label": "SYNTHETIC TEST DATA",
+    "documented_allergy": "penicillin",
+    "prescribed_medication": "amoxicillin",
+    "expected_conflict": true,
+    "conflict_type": "BETA_LACTAM_CROSS_REACTIVITY"
+  },
+  "SCENARIO_I": {
+    "title": "Historical Document Processing",
+    "label": "SYNTHETIC TEST DATA",
+    "document_type": "OPD_PRESCRIPTION",
+    "ocr_available": false,
+    "status": "OCR_UNAVAILABLE_FALLBACK_BLOCKED"
+  },
+  "SCENARIO_J": {
+    "title": "AYUSH Dashavidha Pariksha & Ahara/Vihara",
+    "label": "SYNTHETIC TEST DATA",
+    "prakriti": "Vata-Pitta",
+    "sara": "Madhyama",
+    "ahara": "Laghu, Ushna",
+    "vihara": "Divasvapna (Daytime sleep)",
+    "provenance": "PATIENT_REPORTED"
+  },
+  "SCENARIO_K": {
+    "title": "Physician Approval State Machine",
+    "label": "SYNTHETIC TEST DATA",
+    "transitions": [
+      "AI_DRAFT -> REVIEWING -> APPROVED",
+      "Material Edit -> Invalidation -> REVIEWING"
+    ],
+    "export_gated": true
+  },
+  "SCENARIO_L": {
+    "title": "Granular Patient Consent Workflow",
+    "label": "SYNTHETIC TEST DATA",
+    "states": [
+      "CONSENT_GRANTED",
+      "SHARING_DENIED",
+      "CONSENT_REVOKED"
+    ],
+    "outbound_sync_gated": true
+  },
+  "SCENARIO_M": {
+    "title": "Offline Operation Mode",
+    "label": "SYNTHETIC TEST DATA",
+    "network_state": "DISCONNECTED",
+    "local_nlp": "FUNCTIONAL",
+    "local_sqlite": "FUNCTIONAL",
+    "local_asr": "FUNCTIONAL",
+    "cloud_call_attempted": false
+  },
+  "SCENARIO_N": {
+    "title": "Network Recovery and Explicit Sync",
+    "label": "SYNTHETIC TEST DATA",
+    "pending_queue": true,
+    "explicit_sync_trigger": true,
+    "ack_received": true,
+    "duplicate_prevention": true
+  }
+}

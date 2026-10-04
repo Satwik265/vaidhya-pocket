@@ -1,0 +1,46 @@
+[
+  {
+    "canonicalId": "ANAT_CHEST",
+    "nameEn": "Chest / Thorax",
+    "translations": {
+      "en": { "standard": "chest", "variants": ["breast", "rib cage", "thorax"] },
+      "hi": { "standard": "छाती", "transliteration": "chhati", "variants": ["seena", "chaati", "vaksh"] },
+      "mr": { "standard": "छाती", "transliteration": "chhati", "variants": ["ur", "chhaticha bhag"] },
+      "ta": { "standard": "நெஞ்சு", "transliteration": "nenju", "variants": ["maarbu", "nenjam"] },
+      "gu": { "standard": "છાતી", "transliteration": "chhati", "variants": ["chhati no bhag"] }
+    }
+  },
+  {
+    "canonicalId": "ANAT_HEAD",
+    "nameEn": "Head",
+    "translations": {
+      "en": { "standard": "head", "variants": ["skull", "scalp", "forehead"] },
+      "hi": { "standard": "सिर", "transliteration": "sir", "variants": ["sar", "matha", "kopdi"] },
+      "mr": { "standard": "डोके", "transliteration": "doke", "variants": ["shir", "mastak"] },
+      "ta": { "standard": "தலை", "transliteration": "thalai", "variants": ["netri", "mandai"] },
+      "gu": { "standard": "માથું", "transliteration": "mathu", "variants": ["shir", "kapad"] }
+    }
+  },
+  {
+    "canonicalId": "ANAT_ABDOMEN",
+    "nameEn": "Abdomen / Stomach",
+    "translations": {
+      "en": { "standard": "stomach", "variants": ["abdomen", "belly", "tummy", "gut"] },
+      "hi": { "standard": "पेट", "transliteration": "pet", "variants": ["udar", "kukh"] },
+      "mr": { "standard": "पोट", "transliteration": "pot", "variants": ["jathar", "udar"] },
+      "ta": { "standard": "வயிறு", "transliteration": "vayiru", "variants": ["thoppai", "kudal"] },
+      "gu": { "standard": "પેટ", "transliteration": "pet", "variants": ["udar", "jathar"] }
+    }
+  },
+  {
+    "canonicalId": "ANAT_THROAT",
+    "nameEn": "Throat / Neck",
+    "translations": {
+      "en": { "standard": "throat", "variants": ["neck", "pharynx", "larynx"] },
+      "hi": { "standard": "गला", "transliteration": "gala", "variants": ["kanth", "gardan"] },
+      "mr": { "standard": "घसा", "transliteration": "ghasa", "variants": ["maank", "gala"] },
+      "ta": { "standard": "தொண்டை", "transliteration": "thonndai", "variants": ["kazhuthu"] },
+      "gu": { "standard": "ગળું", "transliteration": "galu", "variants": ["dok", "kanth"] }
+    }
+  }
+]

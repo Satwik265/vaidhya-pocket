@@ -1,0 +1,82 @@
+[
+  {
+    "input": "મને છાતીમાં દુખાવો અને શ્વાસ લેવામાં તકલીફ કાલથી છે.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "chhatima dukhavo",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "mane chhatima dukhava lage che ane dam lage che.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "મને બે દિવસથી fever છે.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_FEVER"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "BP nathi pan tran divasthi taav che.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["DIS_HYPERTENSION", "SYM_FEVER"],
+    "expectedNegations": ["DIS_HYPERTENSION"],
+    "expectedTemporalValues": [{ "value": 3, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Sugar ni bimari che ane glycomet levano chalu che.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["DIS_DIABETES"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "છાતીમાં અસહ્ય દુખાવો અને ચક્કર આવીને પડી ગયા.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_DIZZINESS", "EMERG_CHEST_CRUSHING"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_CARDIAC_SYNCOPE"]
+  },
+  {
+    "input": "Achanak modhu tedhu thayu ane bolvama ladkhadaat che.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["EMERG_STROKE_FAST"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACUTE_STROKE"]
+  },
+  {
+    "input": "Jadama lohi aavi rahyu che be divas thi.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["SYM_BLOOD_IN_STOOL"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_GI_BLEED"]
+  },
+  {
+    "input": "Balpan thi dam ni takleef che.",
+    "expectedLanguage": "gu-IN",
+    "expectedConcepts": ["DIS_ASTHMA"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "childhood" }],
+    "expectedRedFlags": []
+  }
+]

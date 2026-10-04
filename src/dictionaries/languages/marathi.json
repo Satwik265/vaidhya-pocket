@@ -1,0 +1,91 @@
+{
+  "language": "mr",
+  "locale": "mr-IN",
+  "entries": [
+    {
+      "canonicalConceptId": "SYM_CHEST_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "छातीत दुखणे",
+      "transliteration": "chhatit dukhne",
+      "commonSpellingVariants": ["chhati dukhat ahe", "chhatit tras", "chhati dukhane"],
+      "commonColloquialVariants": ["mala chhatit khup dukhta", "chhatit dukhtay", "chhati bharun aali", "chhati daab aala", "chhatit ghabrat ahe"],
+      "commonSpeechRecognitionErrors": ["chatit dukhne", "chhatit dukhto", "chhati dukhte"]
+    },
+    {
+      "canonicalConceptId": "SYM_BREATHLESSNESS",
+      "clinicalCategory": "symptom",
+      "nativeScript": "श्वास घेण्यास त्रास",
+      "transliteration": "shwas ghenyas tras",
+      "commonSpellingVariants": ["shwas lagne", "shwas tras", "dam lagne"],
+      "commonColloquialVariants": ["dam lagto ahe", "shwas phulne", "shwas gheta yet nahi", "shwas khup bharla ahe"],
+      "commonSpeechRecognitionErrors": ["swas tras", "shwas lagto"]
+    },
+    {
+      "canonicalConceptId": "SYM_FEVER",
+      "clinicalCategory": "symptom",
+      "nativeScript": "ताप",
+      "transliteration": "taap",
+      "commonSpellingVariants": ["tap", "taap ahe", "ang garam"],
+      "commonColloquialVariants": ["khup taap ahe", "ang garam zala ahe", "ang dukhi aani taap", "thandi wajun taap"],
+      "commonSpeechRecognitionErrors": ["tap", "thap"]
+    },
+    {
+      "canonicalConceptId": "SYM_HEADACHE",
+      "clinicalCategory": "symptom",
+      "nativeScript": "डोकेदुखी",
+      "transliteration": "dokedukhi",
+      "commonSpellingVariants": ["doke dukhne", "doke dukhat ahe"],
+      "commonColloquialVariants": ["doke phut-te", "doke khup dukhtay", "doke jadd zale ahe"],
+      "commonSpeechRecognitionErrors": ["doke dukhi", "dokadukhi"]
+    },
+    {
+      "canonicalConceptId": "DIS_HYPERTENSION",
+      "clinicalCategory": "condition",
+      "nativeScript": "उच्च रक्तदाब",
+      "transliteration": "high bp",
+      "commonSpellingVariants": ["bp cha tras", "raktadaab", "blood pressure"],
+      "commonColloquialVariants": ["raktadaab vadhalay", "bp vadhla ahe", "bp chi bimari"],
+      "commonSpeechRecognitionErrors": ["b p", "beep"]
+    },
+    {
+      "canonicalConceptId": "DIS_DIABETES",
+      "clinicalCategory": "condition",
+      "nativeScript": "मधुमेह",
+      "transliteration": "madhumeh",
+      "commonSpellingVariants": ["sakhar rog", "sugar ahe", "sugar cha tras"],
+      "commonColloquialVariants": ["shakarecha tras", "sugar chi bimari", "sugar ahe mala"],
+      "commonSpeechRecognitionErrors": ["suger", "shugar"]
+    },
+    {
+      "canonicalConceptId": "RX_METFORMIN",
+      "clinicalCategory": "medication",
+      "nativeScript": "मेटफॉर्मिन",
+      "transliteration": "metformin",
+      "commonSpellingVariants": ["glycomet", "sugar chi goli"],
+      "commonColloquialVariants": ["sakhar goli", "sugar sathi goli"],
+      "commonSpeechRecognitionErrors": ["met for men", "meat formin"]
+    },
+    {
+      "canonicalConceptId": "RX_PARACETAMOL",
+      "clinicalCategory": "medication",
+      "nativeScript": "पॅरासिटामॉल",
+      "transliteration": "paracetamol",
+      "commonSpellingVariants": ["crocin", "dolo", "dolo 650"],
+      "commonColloquialVariants": ["tapachi goli", "ang dukhi chi goli"],
+      "commonSpeechRecognitionErrors": ["parisitamol", "dolow"]
+    }
+  ],
+  "negationTriggers": [
+    "nahi", "nahit", "nahiye", "nahi ahe", "kahi nahi", "kadhi nahi", "ajun nahi", "nashik", "nako"
+  ],
+  "temporalPatterns": [
+    { "regex": "(\\d+)\\s*(divas|divasan|divasapasun|divasampasun)", "unit": "days" },
+    { "regex": "(\\d+)\\s*(athavade|athavadya)", "unit": "weeks" },
+    { "regex": "(\\d+)\\s*(mahine|mahinyanpasun)", "unit": "months" },
+    { "regex": "(\\d+)\\s*(varsh|varshe)", "unit": "years" },
+    { "regex": "aajpasun", "unit": "days", "value": 0 },
+    { "regex": "kalpasun", "unit": "days", "value": 1 },
+    { "regex": "kal\\s*ratri\\s*pasun", "unit": "hours", "value": 12 },
+    { "regex": "मागच्या\\s*आठवड्यापासून", "unit": "weeks", "value": 1 }
+  ]
+}

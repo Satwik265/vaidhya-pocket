@@ -1,0 +1,82 @@
+[
+  {
+    "input": "எனக்கு நெஞ்சு வலி மற்றும் மூச்சுத் திணறல் நேற்று முதல் இருக்கு.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_ACS_DYSPNEA"]
+  },
+  {
+    "input": "enakku nenju vali romba irukku.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "எனக்கு two days-ஆ chest pain இருக்கு.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "BP kidayathu aanaal moonu naala kaichal irukku.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["DIS_HYPERTENSION", "SYM_FEVER"],
+    "expectedNegations": ["DIS_HYPERTENSION"],
+    "expectedTemporalValues": [{ "value": 3, "unit": "days" }],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "காய்ச்சல் இல்லவே இல்லை ஆனால் கடுமையான தலைவலி.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_FEVER", "SYM_HEADACHE"],
+    "expectedNegations": ["SYM_FEVER"],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "Sakkari noi irukku sugarukku metformin sapdren.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["DIS_DIABETES"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": []
+  },
+  {
+    "input": "தாங்க முடியாத நெஞ்சு வலி மற்றும் மயக்கம் வந்து விழுந்துட்டார்.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_CHEST_PAIN", "SYM_DIZZINESS", "EMERG_CHEST_CRUSHING"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_CARDIAC_SYNCOPE"]
+  },
+  {
+    "input": "Oru pakkam seyalilanthathu achanak vaai konaruthu.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["EMERG_STROKE_FAST"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [],
+    "expectedRedFlags": ["RED_FLAG_ACUTE_STROKE"]
+  },
+  {
+    "input": "Malathil ratham varuthu rendu naatkalaga.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_BLOOD_IN_STOOL"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 2, "unit": "days" }],
+    "expectedRedFlags": ["RED_FLAG_GI_BLEED"]
+  },
+  {
+    "input": "Siru vayadhu mudhal moochu thinaral noi irukku.",
+    "expectedLanguage": "ta-IN",
+    "expectedConcepts": ["SYM_BREATHLESSNESS"],
+    "expectedNegations": [],
+    "expectedTemporalValues": [{ "value": 1, "unit": "childhood" }],
+    "expectedRedFlags": ["RED_FLAG_SEVERE_DYSPNEA"]
+  }
+]

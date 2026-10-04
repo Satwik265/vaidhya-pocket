@@ -1,0 +1,27 @@
+{
+  "status": "MEASURED",
+  "device": "DEV MACHINE (node v22.22.2, Intel(R) Xeon(R) Processor @ 2.10GHz), not a phone",
+  "runs": 30,
+  "stages": {
+    "extractMs": {
+      "p50": 21.55,
+      "p95": 31.87
+    },
+    "groundMs": {
+      "p50": 0.1,
+      "p95": 2.57
+    },
+    "redFlagMs": {
+      "p50": 0.01,
+      "p95": 0.02
+    },
+    "soapMs": {
+      "p50": 13.89,
+      "p95": 27.78
+    },
+    "totalMs": {
+      "p50": 36.76,
+      "p95": 54.74
+    }
+  }
+}

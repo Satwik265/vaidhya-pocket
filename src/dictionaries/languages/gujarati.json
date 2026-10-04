@@ -1,0 +1,91 @@
+{
+  "language": "gu",
+  "locale": "gu-IN",
+  "entries": [
+    {
+      "canonicalConceptId": "SYM_CHEST_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "છાતીમાં દુખાવો",
+      "transliteration": "chhatima dukhavo",
+      "commonSpellingVariants": ["chhati dukhe che", "chhatima jalan", "chhatima bhar"],
+      "commonColloquialVariants": ["chhatima bhar lage che", "mane chhatima dukhava lage che", "chhatima ghabraman che"],
+      "commonSpeechRecognitionErrors": ["chatima dukhavo", "chhati ma dukhavo"]
+    },
+    {
+      "canonicalConceptId": "SYM_BREATHLESSNESS",
+      "clinicalCategory": "symptom",
+      "nativeScript": "શ્વાસ લેવામાં તકલીફ",
+      "transliteration": "shwas levama taklif",
+      "commonSpellingVariants": ["shwas chhadhe che", "shwas foolvo", "dam lage che"],
+      "commonColloquialVariants": ["shwas nathi aavto", "dam bhari aave che", "shwas fulaay che"],
+      "commonSpeechRecognitionErrors": ["svas taklif", "swas foolvo"]
+    },
+    {
+      "canonicalConceptId": "SYM_FEVER",
+      "clinicalCategory": "symptom",
+      "nativeScript": "તાવ",
+      "transliteration": "taav",
+      "commonSpellingVariants": ["tav", "bahut taav che", "sharir garam"],
+      "commonColloquialVariants": ["sharir garam thayu che", "thandi saathe taav", "dhadhadhato tav"],
+      "commonSpeechRecognitionErrors": ["tav", "tava"]
+    },
+    {
+      "canonicalConceptId": "SYM_HEADACHE",
+      "clinicalCategory": "symptom",
+      "nativeScript": "માથાનો દુખાવો",
+      "transliteration": "mathano dukhavo",
+      "commonSpellingVariants": ["mathu dukhe che", "mathama bhar"],
+      "commonColloquialVariants": ["mathu phati jay che", "mathama kanto aave che", "mathu bhari lagya kare che"],
+      "commonSpeechRecognitionErrors": ["matha dukhavo", "mathu dukhavo"]
+    },
+    {
+      "canonicalConceptId": "DIS_HYPERTENSION",
+      "clinicalCategory": "condition",
+      "nativeScript": "હાઈ બ્લડ પ્રેશર",
+      "transliteration": "high bp",
+      "commonSpellingVariants": ["bp ni bimari", "lohi nu dabhan", "blood pressure"],
+      "commonColloquialVariants": ["bp vadhi gayu che", "bp no tras che", "bp high che"],
+      "commonSpeechRecognitionErrors": ["b p", "beep"]
+    },
+    {
+      "canonicalConceptId": "DIS_DIABETES",
+      "clinicalCategory": "condition",
+      "nativeScript": "મધુપ્રમેહ",
+      "transliteration": "madhuprameh",
+      "commonSpellingVariants": ["sugar che", "sugar ni bimari", "shakkar"],
+      "commonColloquialVariants": ["sugar vadhi gayu", "sugar no rog che", "sugar ni takleef"],
+      "commonSpeechRecognitionErrors": ["suger", "shugar"]
+    },
+    {
+      "canonicalConceptId": "RX_METFORMIN",
+      "clinicalCategory": "medication",
+      "nativeScript": "મેટફોર્મિન",
+      "transliteration": "metformin",
+      "commonSpellingVariants": ["glycomet", "sugar ni goli"],
+      "commonColloquialVariants": ["sugar mate goli", "glycomet 500"],
+      "commonSpeechRecognitionErrors": ["met for men", "meat formin"]
+    },
+    {
+      "canonicalConceptId": "RX_PARACETAMOL",
+      "clinicalCategory": "medication",
+      "nativeScript": "પેરાસિટામોલ",
+      "transliteration": "paracetamol",
+      "commonSpellingVariants": ["crocin", "dolo", "dolo 650"],
+      "commonColloquialVariants": ["tavni goli", "crocin goli"],
+      "commonSpeechRecognitionErrors": ["parisitamol", "dolow"]
+    }
+  ],
+  "negationTriggers": [
+    "nathi", "nahi", "na", "bilkul nathi", "kayrey nathi", "nathi thayu", "nathi aavyu", "kem nathi"
+  ],
+  "temporalPatterns": [
+    { "regex": "(\\d+)\\s*(divas|divasthi|divaso)", "unit": "days" },
+    { "regex": "(\\d+)\\s*(athvadiyu|athvadiya)", "unit": "weeks" },
+    { "regex": "(\\d+)\\s*(mahina|mahinathi)", "unit": "months" },
+    { "regex": "(\\d+)\\s*(varsh|varsho)", "unit": "years" },
+    { "regex": "aajthi", "unit": "days", "value": 0 },
+    { "regex": "kaal\\s*thi", "unit": "days", "value": 1 },
+    { "regex": "kaal\\s*raat\\s*thi", "unit": "hours", "value": 12 },
+    { "regex": "pachhla\\s*athvadiya\\s*thi", "unit": "weeks", "value": 1 }
+  ]
+}

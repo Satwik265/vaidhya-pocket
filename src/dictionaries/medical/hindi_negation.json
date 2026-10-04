@@ -1,0 +1,9 @@
+{
+  "language": "hi",
+  "negationTriggers": {
+    "devanagari": ["नहीं", "नही", "ना", "कभी नहीं", "कोई नहीं", "बिलकुल नहीं"],
+    "romanized": ["nahi", "nahin", "na", "kabhi nahi", "koi nahi", "bilkul nahi"],
+    "asrVariants": ["nai", "nhi"]
+  },
+  "notes": "Scope: check for a negation trigger within a small token window AFTER the matched concept phrase (Hindi is typically SOV — negation particles usually follow the verb/complaint, e.g. 'BP ka problem nahi hai'). This is a heuristic window, not a full dependency parse — verify against real transcripts before trusting in production, and always keep the raw evidence text alongside the assertion so a clinician can double-check."
+}

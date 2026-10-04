@@ -1,0 +1,458 @@
+[
+  {
+    "canonicalId": "SYM_CHEST_PAIN",
+    "nameEn": "Chest Pain",
+    "snomedCode": "29857009",
+    "category": "cardiovascular",
+    "translations": {
+      "en": {
+        "standard": "chest pain",
+        "variants": ["chest tightness", "chest pressure", "pain in chest", "heaviness in chest", "burning in chest"],
+        "asrErrors": ["chase pain", "just pain", "chess pain"]
+      },
+      "hi": {
+        "standard": "सीने में दर्द",
+        "transliteration": "seene mein dard",
+        "variants": ["chaati mein dard", "seena bhari lag raha hai", "seene mein jalan", "seena dab raha hai", "chest mein bahut pain", "chest mein pain", "chest pain", "सीने में असहनीय दर्द", "सीने में असहनीय"],
+        "asrErrors": ["cinema dard", "sine m dard", "siname dard"]
+      },
+      "mr": {
+        "standard": "छातीत दुखणे",
+        "transliteration": "chhatit dukhne",
+        "variants": ["mala chhatit khup dukhta", "chhatit dukhtay", "chhati bharun aali", "chhati daab aala", "chhatit tras", "chhatit vedna", "chhatit asahya vedna", "chhati vedna", "छातीत असह्य वेदना", "छातीत दुखणे", "छातीत वेदना", "छातीत त्रास", "छातीत दुखत"],
+        "asrErrors": ["chatit dukhne", "chhatit dukhto", "chhati dukhte"]
+      },
+      "ta": {
+        "standard": "நெஞ்சு வலி",
+        "transliteration": "nenju vali",
+        "variants": ["enakku nenju vali", "nenjil baaram", "nenju erichal", "nenjil vali irukku", "நெஞ்சு வலி"],
+        "asrErrors": ["nenju wali", "nenju valli", "ninju vali"]
+      },
+      "gu": {
+        "standard": "છાતીમાં દુખાવો",
+        "transliteration": "chhatima dukhavo",
+        "variants": ["chhatima bhar lage che", "chhatima jalan", "mane chhatima dukhava lage che", "chhatima asahya dukhavo", "chhatima dukhavo", "છાતીમાં અસહ્ય દુખાવો", "છાતીમાં દુખાવો", "છાતીમાં ભાર"],
+        "asrErrors": ["chatima dukhavo", "chhati ma dukhavo"]
+      }
+    },
+    "isRedFlag": true
+  },
+  {
+    "canonicalId": "SYM_BREATHLESSNESS",
+    "nameEn": "Shortness of Breath / Dyspnea",
+    "snomedCode": "267036007",
+    "category": "respiratory",
+    "translations": {
+      "en": {
+        "standard": "shortness of breath",
+        "variants": ["breathlessness", "difficulty breathing", "dyspnea", "gasping for air", "cannot catch breath"],
+        "asrErrors": ["short breath", "breath less"]
+      },
+      "hi": {
+        "standard": "सांस फूलना",
+        "transliteration": "saans phoolna",
+        "variants": ["saans phulna", "saans lene mein takleef", "saans nahi aa raha", "dam ghut raha hai", "सांस फूलने", "saans phoolne", "saans phool", "breathlessness", "breathing problem"],
+        "asrErrors": ["sans phoolna", "saas fulna", "saans foolna"]
+      },
+      "mr": {
+        "standard": "श्वास घेण्यास त्रास",
+        "transliteration": "shwas ghenyas tras",
+        "variants": ["shwas lagne", "shwas phulne", "shwas gheta yet nahi", "dam lagto ahe", "breathing problem", "dam lagto", "श्वास घेण्यास"],
+        "asrErrors": ["swas tras", "shwas lagto"]
+      },
+      "ta": {
+        "standard": "மூச்சுத் திணறல்",
+        "transliteration": "moochu thinarel",
+        "variants": ["moochu vida kashtam", "moochu vaanguthu", "moochu muttuthu", "enakku moochu thinarel"],
+        "asrErrors": ["muchu tinarel", "moochu thinaral"]
+      },
+      "gu": {
+        "standard": "શ્વાસ લેવામાં તકલીફ",
+        "transliteration": "shwas levama taklif",
+        "variants": ["shwas chhadhe che", "shwas foolvo", "dam lage che"],
+        "asrErrors": ["svas taklif", "swas foolvo"]
+      }
+    },
+    "isRedFlag": true
+  },
+  {
+    "canonicalId": "SYM_FEVER",
+    "nameEn": "Fever",
+    "snomedCode": "386661006",
+    "category": "general",
+    "translations": {
+      "en": {
+        "standard": "fever",
+        "variants": ["high temperature", "pyrexia", "feeling hot", "chills", "feverish"],
+        "asrErrors": ["favor", "feever", "fiever"]
+      },
+      "hi": {
+        "standard": "बुखार",
+        "transliteration": "bukhar",
+        "variants": ["bukhaar", "tez bukhar", "badan garam hai", "halka bukhar", "thand lag ke bukhar"],
+        "asrErrors": ["bukhr", "buhar"]
+      },
+      "mr": {
+        "standard": "ताप",
+        "transliteration": "taap",
+        "variants": ["khup taap ahe", "ang garam zala ahe", "ang dukhi aani taap", "thandi wajun taap"],
+        "asrErrors": ["tap", "thap"]
+      },
+      "ta": {
+        "standard": "காய்ச்சல்",
+        "transliteration": "kaichal",
+        "variants": ["kaychal", "udambu sooda irukku", "enakku kaichal", "kulir kaichal"],
+        "asrErrors": ["kaachal", "kaaichal", "kaychal"]
+      },
+      "gu": {
+        "standard": "તાવ",
+        "transliteration": "taav",
+        "variants": ["tav", "bahut taav che", "sharir garam thayu che", "thandi saathe taav"],
+        "asrErrors": ["tav", "tava"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_HEADACHE",
+    "nameEn": "Headache",
+    "snomedCode": "25064002",
+    "category": "neurological",
+    "translations": {
+      "en": {
+        "standard": "headache",
+        "variants": ["head pain", "head throbbing", "migraine", "severe headache"],
+        "asrErrors": ["head ache", "head act"]
+      },
+      "hi": {
+        "standard": "सिरदर्द",
+        "transliteration": "sirdard",
+        "variants": ["sar dard", "sar mein dard", "sar phat raha hai", "sar bhari lag raha hai"],
+        "asrErrors": ["sir dard", "sar drd"]
+      },
+      "mr": {
+        "standard": "डोकेदुखी",
+        "transliteration": "dokedukhi",
+        "variants": ["doke dukhat ahe", "doke phut-te", "doke khup dukhtay", "doke dukhtay", "doke dukhte", "डोके दुखत आहे", "डोके दुखत", "डोकेदुखी", "डोके दुखणे"],
+        "asrErrors": ["doke dukhi", "dokadukhi"]
+      },
+      "ta": {
+        "standard": "தலைவலி",
+        "transliteration": "thalaivali",
+        "variants": ["thalai vali", "thalaikkul kuthu", "thalai baram", "enakku thalaivali"],
+        "asrErrors": ["talaivali", "thalai valli"]
+      },
+      "gu": {
+        "standard": "માથાનો દુખાવો",
+        "transliteration": "mathano dukhavo",
+        "variants": ["mathu dukhe che", "mathama bhar", "mathu phati jay che"],
+        "asrErrors": ["matha dukhavo", "mathu dukhavo"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_COUGH",
+    "nameEn": "Cough",
+    "snomedCode": "49727002",
+    "category": "respiratory",
+    "translations": {
+      "en": {
+        "standard": "cough",
+        "variants": ["dry cough", "productive cough", "coughing sputum", "hacking cough", "coughing blood"],
+        "asrErrors": ["coff", "caugh"]
+      },
+      "hi": {
+        "standard": "खांसी",
+        "transliteration": "khansi",
+        "variants": ["khaansi", "sookhi khansi", "balgam wali khansi", "khansi mein khoon"],
+        "asrErrors": ["khasi", "khaasi"]
+      },
+      "mr": {
+        "standard": "खोकला",
+        "transliteration": "khokla",
+        "variants": ["korada khokla", "kaphacha khokla", "khoklun traas"],
+        "asrErrors": ["kokla", "khoklaa"]
+      },
+      "ta": {
+        "standard": "இருமல்",
+        "transliteration": "irumal",
+        "variants": ["varattu irumal", "sali irumal", "irumi irumi vali"],
+        "asrErrors": ["erumal", "iruml"]
+      },
+      "gu": {
+        "standard": "ખાંસી",
+        "transliteration": "khansi",
+        "variants": ["udhras", "sukhi udhras", "kaph wali udhras", "khansvano tras"],
+        "asrErrors": ["khasi", "udrash"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_ABDOMINAL_PAIN",
+    "nameEn": "Abdominal Pain",
+    "snomedCode": "21522001",
+    "category": "gastrointestinal",
+    "translations": {
+      "en": {
+        "standard": "abdominal pain",
+        "variants": ["stomach ache", "belly pain", "stomach cramps", "gastric pain"],
+        "asrErrors": ["stomach pain", "ab pain"]
+      },
+      "hi": {
+        "standard": "पेट दर्द",
+        "transliteration": "pet dard",
+        "variants": ["pet mein dard", "pet mein marod", "pet mein jalan", "pet soojha hua"],
+        "asrErrors": ["peth dard", "pet drd"]
+      },
+      "mr": {
+        "standard": "पोटदुखी",
+        "transliteration": "potdukhi",
+        "variants": ["potat dukhtay", "potat morada aala", "pot dukhat ahe", "पोटात दुखत", "पोटात दुखणे", "potat dukhat"],
+        "asrErrors": ["pota dukhi", "potaat dukhne"]
+      },
+      "ta": {
+        "standard": "வயிற்று வலி",
+        "transliteration": "vayiru vali",
+        "variants": ["vayitru vali", "vayiru piditham", "vayiru erichal"],
+        "asrErrors": ["vairu vali", "vayiru valli"]
+      },
+      "gu": {
+        "standard": "પેટમાં દુખાવો",
+        "transliteration": "petma dukhavo",
+        "variants": ["pet dukhe che", "petma val che", "petma jalan"],
+        "asrErrors": ["pet ma dukhavo", "pet dukhavo"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_VOMITING",
+    "nameEn": "Vomiting / Emesis",
+    "snomedCode": "422400008",
+    "category": "gastrointestinal",
+    "translations": {
+      "en": {
+        "standard": "vomiting",
+        "variants": ["nausea and vomiting", "throwing up", "emesis", "retching"],
+        "asrErrors": ["vomiting", "womiting"]
+      },
+      "hi": {
+        "standard": "उल्टी",
+        "transliteration": "ulti",
+        "variants": ["ulti aana", "jeem machalna", "khoon ki ulti", "baar baar ulti"],
+        "asrErrors": ["oolti", "ultee"]
+      },
+      "mr": {
+        "standard": "उलटी",
+        "transliteration": "ulti",
+        "variants": ["ulati hone", "malamal hone", "tatkaal ulti", "pitta padne"],
+        "asrErrors": ["oolti", "wooltee"]
+      },
+      "ta": {
+        "standard": "வாந்தி",
+        "transliteration": "vaanthi",
+        "variants": ["vanthi", "vanthi varuthu", "kumattal", "vaanthi edukkuthu"],
+        "asrErrors": ["vanti", "wanthi"]
+      },
+      "gu": {
+        "standard": "ઊલટી",
+        "transliteration": "ulti",
+        "variants": ["oolti", "jeev ghabray che", "chhedi thay che"],
+        "asrErrors": ["valti", "oolti"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_DIARRHEA",
+    "nameEn": "Diarrhea",
+    "snomedCode": "62315008",
+    "category": "gastrointestinal",
+    "translations": {
+      "en": {
+        "standard": "diarrhea",
+        "variants": ["loose motions", "watery stool", "frequent motions"],
+        "asrErrors": ["direa", "loose motion"]
+      },
+      "hi": {
+        "standard": "दस्त",
+        "transliteration": "dast",
+        "variants": ["loose motion", "pani jaisa dast", "patla dast", "khooni dast"],
+        "asrErrors": ["dust", "dastt"]
+      },
+      "mr": {
+        "standard": "जुलाब",
+        "transliteration": "julaab",
+        "variants": ["sandas patal hone", "hagwan lagli ahe", "pani jase julab"],
+        "asrErrors": ["julab", "joolab"]
+      },
+      "ta": {
+        "standard": "வயிற்றுப்போக்கு",
+        "transliteration": "vayitruppokku",
+        "variants": ["vettu pokku", "neer pokku", "loose motion poguthu"],
+        "asrErrors": ["vayiru pokku", "vayitru pokku"]
+      },
+      "gu": {
+        "standard": "ઝાડા",
+        "transliteration": "jhada",
+        "variants": ["jada", "patla jhada", "pani jeva jhada", "loose motion"],
+        "asrErrors": ["jada", "zaada"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_DIZZINESS",
+    "nameEn": "Dizziness / Vertigo",
+    "snomedCode": "404640003",
+    "category": "neurological",
+    "translations": {
+      "en": {
+        "standard": "dizziness",
+        "variants": ["lightheadedness", "vertigo", "spinning sensation", "faint feeling"],
+        "asrErrors": ["dizy", "giddiness"]
+      },
+      "hi": {
+        "standard": "चक्कर",
+        "transliteration": "chakkar",
+        "variants": ["chakkar aana", "sar ghoom raha hai", "aankhon ke aage andhera", "chakkar"],
+        "asrErrors": ["chakar", "chkr"]
+      },
+      "mr": {
+        "standard": "चक्कर येणे",
+        "transliteration": "chakkar yene",
+        "variants": ["doke ghirghirne", "chakkar yet ahe", "dolyasamor andhari", "chakkar aali", "chakkar"],
+        "asrErrors": ["chakar aali", "chakkar"]
+      },
+      "ta": {
+        "standard": "மயக்கம்",
+        "transliteration": "mayakkam",
+        "variants": ["thalai suthuthu", "mayakkam varuthu", "kannu iruttuthu"],
+        "asrErrors": ["mayakam", "thalai suthi"]
+      },
+      "gu": {
+        "standard": "ચક્કર આવવા",
+        "transliteration": "chakkar aavva",
+        "variants": ["chakkar aave che", "aankho aagal andhara", "mathu ghume che", "chakkar", "ચક્કર", "ચક્કર આવીને", "ચક્કર આવવા"],
+        "asrErrors": ["chakar aave", "chakkar"]
+      }
+    },
+    "isRedFlag": false
+  },
+  {
+    "canonicalId": "SYM_ALTERED_CONSCIOUSNESS",
+    "nameEn": "Altered Consciousness / Syncope",
+    "snomedCode": "40917007",
+    "category": "neurological",
+    "translations": {
+      "en": {
+        "standard": "loss of consciousness",
+        "variants": ["passed out", "syncope", "fainted", "unresponsive", "blackout"],
+        "asrErrors": ["fainted", "unconscious"]
+      },
+      "hi": {
+        "standard": "बेहोशी",
+        "transliteration": "behoshi",
+        "variants": ["behosh ho jana", "hosh kho dena", "hosh mein nahi hai", "sudh-budh khona", "बेहोश", "बेहोश हो गया", "behosh"],
+        "asrErrors": ["behoshi", "be hosh"]
+      },
+      "mr": {
+        "standard": "शुद्ध हरपणे",
+        "transliteration": "shuddh harpne",
+        "variants": ["bebhann hone", "shuddh nahi ahe", "behoshi ali"],
+        "asrErrors": ["shuddh harpli", "behoshi"]
+      },
+      "ta": {
+        "standard": "மயக்க நிலை",
+        "transliteration": "mayakka nilai",
+        "variants": ["nenaivu thappi vittathu", "nenaivillamal irukkar", "mayangi vizhunthuttar"],
+        "asrErrors": ["ninaivu thappal", "mayangi"]
+      },
+      "gu": {
+        "standard": "બેહોશ થઈ જવું",
+        "transliteration": "behosh thai javu",
+        "variants": ["bhaan bhuli javu", "behosh che", "bhaan nathi"],
+        "asrErrors": ["be hosh", "behosh"]
+      }
+    },
+    "isRedFlag": true
+  },
+  {
+    "canonicalId": "SYM_SEIZURE",
+    "nameEn": "Seizure / Convulsion",
+    "snomedCode": "91175000",
+    "category": "neurological",
+    "translations": {
+      "en": {
+        "standard": "seizure",
+        "variants": ["convulsion", "fits", "epileptic attack", "jerking movements"],
+        "asrErrors": ["ceizure", "fits"]
+      },
+      "hi": {
+        "standard": "दौरा पड़ना",
+        "transliteration": "daura padna",
+        "variants": ["jhatke aana", "mirgi ka daura", "kampan hona", "daura aana"],
+        "asrErrors": ["dora", "mirgi"]
+      },
+      "mr": {
+        "standard": "आचके येणे",
+        "transliteration": "aachke yene",
+        "variants": ["aet aali", "mirgicha aatka", "ang udane"],
+        "asrErrors": ["achke", "mirgi"]
+      },
+      "ta": {
+        "standard": "வலிப்பு",
+        "transliteration": "valippu",
+        "variants": ["kaaka valippu", "udal thudithal", "valippu vanthathu"],
+        "asrErrors": ["valiipu", "valipu"]
+      },
+      "gu": {
+        "standard": "આંચકી આવવી",
+        "transliteration": "aanchki aavvi",
+        "variants": ["anchki", "taan aavvi", "mirgi aavi"],
+        "asrErrors": ["aanchaki", "taan"]
+      }
+    },
+    "isRedFlag": true
+  },
+  {
+    "canonicalId": "SYM_BLOOD_IN_STOOL",
+    "nameEn": "Blood in Stool / Melena",
+    "snomedCode": "34436003",
+    "category": "gastrointestinal",
+    "translations": {
+      "en": {
+        "standard": "blood in stool",
+        "variants": ["rectal bleeding", "bloody stool", "black stool", "melena"],
+        "asrErrors": ["blood in tool", "red stool"]
+      },
+      "hi": {
+        "standard": "मल में खून",
+        "transliteration": "mal mein khoon",
+        "variants": ["potty mein khoon", "tatti mein khoon", "kala mal aana"],
+        "asrErrors": ["mal me khoon", "khuni dast"]
+      },
+      "mr": {
+        "standard": "शौचात रक्त येणे",
+        "transliteration": "shauchat rakt yene",
+        "variants": ["sandasat rakt", "kala shauch hone"],
+        "asrErrors": ["shouchat rakt", "sandasat rakt"]
+      },
+      "ta": {
+        "standard": "மலத்தில் ரத்தம்",
+        "transliteration": "malathil ratham",
+        "variants": ["peel ratham", "malathil ratham varuthu", "karuppu malam"],
+        "asrErrors": ["malathil rattham", "ratha malam"]
+      },
+      "gu": {
+        "standard": "ઝાડામાં લોહી",
+        "transliteration": "jhadama lohi",
+        "variants": ["jadama lohi", "tatti ma lohi", "kalo jhado"],
+        "asrErrors": ["jadama lohi", "lohi avvu"]
+      }
+    },
+    "isRedFlag": true
+  }
+]

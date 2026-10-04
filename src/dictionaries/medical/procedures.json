@@ -1,0 +1,24 @@
+[
+  {
+    "canonicalId": "PROC_ANGIOPLASTY",
+    "nameEn": "Coronary Angioplasty / Stent",
+    "translations": {
+      "en": { "standard": "angioplasty", "variants": ["stent placed", "cardiac stent", "PTCA", "heart stent"] },
+      "hi": { "standard": "एंजियोप्लास्टी", "transliteration": "angioplasty", "variants": ["stent dala hua hai", "chhalla pada hai", "heart ka operation"] },
+      "mr": { "standard": "अँजिओप्लास्टी", "transliteration": "angioplasty", "variants": ["stent takla ahe", "spring takli ahe"] },
+      "ta": { "standard": "ஆஞ்சியோபிளாஸ்டி", "transliteration": "angioplasty", "variants": ["stent vachirukkanga", "valayam vachathu"] },
+      "gu": { "standard": "એન્જિયોપ્લાસ્ટી", "transliteration": "angioplasty", "variants": ["stent mukelu che", "spring mukeli che"] }
+    }
+  },
+  {
+    "canonicalId": "PROC_CAESAREAN",
+    "nameEn": "Caesarean Section / C-Section",
+    "translations": {
+      "en": { "standard": "caesarean section", "variants": ["C-section", "cesarean delivery", "operative delivery"] },
+      "hi": { "standard": "सिजेरियन डिलीवरी", "transliteration": "cesarean delivery", "variants": ["bada operation", "operation se bacha hua"] },
+      "mr": { "standard": "सिझेरियन प्रसूती", "transliteration": "cesarean", "variants": ["mothya operation ne delivery"] },
+      "ta": { "standard": "சிசேரியன் பிரசவம்", "transliteration": "cesarean delivery", "variants": ["operation delivery"] },
+      "gu": { "standard": "સિઝેરિયન ડિલિવરી", "transliteration": "cesarean delivery", "variants": ["operation thi delivery"] }
+    }
+  }
+]

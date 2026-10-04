@@ -1,0 +1,11 @@
+{
+  "note": "EXAMPLE cases only. Replace with 50 NEW cases written after the rules are frozen. isExample=true cases are never reported as results.",
+  "isExample": true,
+  "cases": [
+    {"id": "ex1", "lang": "hi", "text": "Teen din se bukhar hai aur sar dard hai.", "expected": [{"code": "SYM_FEVER", "assertion": "AFFIRMED"}, {"code": "SYM_HEADACHE", "assertion": "AFFIRMED"}]},
+    {"id": "ex2", "lang": "hi", "text": "Seene mein dard hai lekin bukhar nahi hai.", "expected": [{"code": "SYM_CHEST_PAIN", "assertion": "AFFIRMED"}, {"code": "SYM_FEVER", "assertion": "NEGATED"}]},
+    {"id": "ex3", "lang": "en", "text": "Patient has chest pain with shortness of breath. No fever.", "expected": [{"code": "SYM_CHEST_PAIN", "assertion": "AFFIRMED"}, {"code": "SYM_BREATHLESSNESS", "assertion": "AFFIRMED"}, {"code": "SYM_FEVER", "assertion": "NEGATED"}]},
+    {"id": "ex4", "lang": "en", "text": "Allergic to penicillin. Takes Tab. Metformin 500mg BD.", "expected": [{"code": "ALLERGY_PENICILLIN", "assertion": "AFFIRMED"}, {"code": "RX_METFORMIN", "assertion": "AFFIRMED"}]},
+    {"id": "ex5", "lang": "hi", "text": "Ulti nahi hai, sar dard hai.", "expected": [{"code": "SYM_VOMITING", "assertion": "NEGATED"}, {"code": "SYM_HEADACHE", "assertion": "AFFIRMED"}]}
+  ]
+}

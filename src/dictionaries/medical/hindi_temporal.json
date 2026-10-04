@@ -1,0 +1,17 @@
+{
+  "language": "hi",
+  "relativeTerms": [
+    { "devanagari": "कल से", "romanized": "kal se", "meaning": "since yesterday", "days": 1 },
+    { "devanagari": "आज से", "romanized": "aaj se", "meaning": "since today", "days": 0 },
+    { "devanagari": "परसों से", "romanized": "parso se", "meaning": "since day before yesterday", "days": 2 },
+    { "devanagari": "बचपन से", "romanized": "bachpan se", "meaning": "since childhood", "days": null }
+  ],
+  "unitWords": {
+    "din": { "devanagari": ["दिन", "दिनों"], "romanized": ["din", "dino"], "unit": "days" },
+    "hafta": { "devanagari": ["हफ्ते", "हफ्तों", "सप्ताह"], "romanized": ["hafte", "hafton", "hafto", "hafta", "saptah"], "unit": "weeks" },
+    "mahina": { "devanagari": ["महीने", "महीनों", "माह"], "romanized": ["mahine", "mahino", "maah"], "unit": "months" },
+    "saal": { "devanagari": ["साल", "सालों", "वर्ष"], "romanized": ["saal", "saalon", "varsh"], "unit": "years" }
+  },
+  "patternHint": "Numeric duration expressions in Hindi typically follow the pattern <number> <unit> से (se), e.g. 'teen din se' (since 3 days), 'do mahine se' (since 2 months). The matcher below extracts the leading number/word-number, the unit, and normalizes to {value, unit}.",
+  "notes": "This is a starter pattern set covering the most common phrasing. It will not catch every dialectal variant — extend as real transcripts surface new patterns, and never silently invent an exact calendar date when the patient only gave a relative duration."
+}

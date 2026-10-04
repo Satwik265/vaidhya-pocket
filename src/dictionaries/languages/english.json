@@ -1,0 +1,90 @@
+{
+  "language": "en",
+  "locale": "en-IN",
+  "entries": [
+    {
+      "canonicalConceptId": "SYM_CHEST_PAIN",
+      "clinicalCategory": "symptom",
+      "nativeScript": "chest pain",
+      "transliteration": "chest pain",
+      "commonSpellingVariants": ["chest discomfort", "chest pressure", "chest tightness", "pain in chest"],
+      "commonColloquialVariants": ["heaviness in chest", "burning in chest", "angina"],
+      "commonSpeechRecognitionErrors": ["chase pain", "chess pain", "just pain"]
+    },
+    {
+      "canonicalConceptId": "SYM_BREATHLESSNESS",
+      "clinicalCategory": "symptom",
+      "nativeScript": "shortness of breath",
+      "transliteration": "breathlessness",
+      "commonSpellingVariants": ["dyspnea", "difficulty breathing", "panting"],
+      "commonColloquialVariants": ["cannot catch breath", "gasping for air", "heavy breathing"],
+      "commonSpeechRecognitionErrors": ["short breath", "breath less"]
+    },
+    {
+      "canonicalConceptId": "SYM_FEVER",
+      "clinicalCategory": "symptom",
+      "nativeScript": "fever",
+      "transliteration": "fever",
+      "commonSpellingVariants": ["high temperature", "pyrexia", "feverish"],
+      "commonColloquialVariants": ["burning up", "chills with fever", "high fever"],
+      "commonSpeechRecognitionErrors": ["feever", "fiever", "favor"]
+    },
+    {
+      "canonicalConceptId": "SYM_HEADACHE",
+      "clinicalCategory": "symptom",
+      "nativeScript": "headache",
+      "transliteration": "headache",
+      "commonSpellingVariants": ["head pain", "migraine", "cephalea"],
+      "commonColloquialVariants": ["splitting headache", "head throbbing"],
+      "commonSpeechRecognitionErrors": ["head ache", "head act"]
+    },
+    {
+      "canonicalConceptId": "DIS_HYPERTENSION",
+      "clinicalCategory": "condition",
+      "nativeScript": "hypertension",
+      "transliteration": "high bp",
+      "commonSpellingVariants": ["high blood pressure", "elevated bp", "arterial hypertension"],
+      "commonColloquialVariants": ["bp issue", "blood pressure high"],
+      "commonSpeechRecognitionErrors": ["hyper tension", "high beep"]
+    },
+    {
+      "canonicalConceptId": "DIS_DIABETES",
+      "clinicalCategory": "condition",
+      "nativeScript": "diabetes",
+      "transliteration": "sugar",
+      "commonSpellingVariants": ["type 2 diabetes", "diabetes mellitus", "high blood sugar"],
+      "commonColloquialVariants": ["sugar complaint", "sugar problem"],
+      "commonSpeechRecognitionErrors": ["dia betes", "diabetic"]
+    },
+    {
+      "canonicalConceptId": "RX_METFORMIN",
+      "clinicalCategory": "medication",
+      "nativeScript": "metformin",
+      "transliteration": "metformin",
+      "commonSpellingVariants": ["glycomet", "gliphage", "metformin hydrochloride"],
+      "commonColloquialVariants": ["sugar tablet", "diabetes tablet"],
+      "commonSpeechRecognitionErrors": ["met for men", "met forming", "meat formin"]
+    },
+    {
+      "canonicalConceptId": "RX_PARACETAMOL",
+      "clinicalCategory": "medication",
+      "nativeScript": "paracetamol",
+      "transliteration": "paracetamol",
+      "commonSpellingVariants": ["acetaminophen", "crocin", "dolo 650"],
+      "commonColloquialVariants": ["fever pill", "dolo"],
+      "commonSpeechRecognitionErrors": ["parisitamol", "dolow"]
+    }
+  ],
+  "negationTriggers": [
+    "no", "not", "never", "don't have", "does not have", "denies", "without", "absent", "none", "neither", "nor"
+  ],
+  "temporalPatterns": [
+    { "regex": "(\\d+)\\s*(day|days)", "unit": "days" },
+    { "regex": "(\\d+)\\s*(week|weeks)", "unit": "weeks" },
+    { "regex": "(\\d+)\\s*(month|months)", "unit": "months" },
+    { "regex": "(\\d+)\\s*(year|years)", "unit": "years" },
+    { "regex": "since yesterday", "unit": "days", "value": 1 },
+    { "regex": "since today", "unit": "days", "value": 0 },
+    { "regex": "since last night", "unit": "hours", "value": 12 }
+  ]
+}

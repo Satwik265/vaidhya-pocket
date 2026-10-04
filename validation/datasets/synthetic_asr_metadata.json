@@ -1,0 +1,24 @@
+{
+  "model_name": "ai4bharat/indicconformer_stt_hi_hybrid_ctc_rnnt_large (Sherpa-ONNX conversion by meetsync)",
+  "quantization": "INT8",
+  "model_file": "models/asr/indic-conformer/model.int8.onnx",
+  "size_bytes": 196977855,
+  "size_mb": 187.85,
+  "sha256": "b99a01834cd1a72cd9be682a0b9543df6b152ef7dfceba88d3dbf59fbb77075d",
+  "supported_languages": [
+    "as",
+    "bn",
+    "brx",
+    "gu",
+    "hi",
+    "kn",
+    "ks",
+    "mr"
+  ],
+  "unsupported_languages": [
+    "ta (Tamil) - supported by NLP/NER but not this ASR model"
+  ],
+  "sample_rate_hz": 16000,
+  "acoustic_accuracy_status": "Human speech accuracy NOT YET BENCHMARKED (Runtime verified, no human audio corpus on host)",
+  "wer_cer_reported": false
+}

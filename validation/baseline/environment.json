@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-09-12T22:06:50+05:30",
+  "git": {
+    "commit": "d35072c86b24cb47414bc910a373d32ef3c483d3",
+    "branch": "main",
+    "uncommitted_changes": false,
+    "status": "clean"
+  },
+  "runtime": {
+    "os": "Windows 11",
+    "node": "v24.15.0",
+    "npm": "12.0.1",
+    "python": "3.14.3",
+    "cargo": "1.97.1"
+  },
+  "frontend": {
+    "framework": "React 19.0.1 + Vite 6.2.3",
+    "styling": "TailwindCSS v4",
+    "test_runner": "Vitest 4.1.10",
+    "type_checker": "TypeScript 5.8.2"
+  },
+  "backend": {
+    "framework": "FastAPI 0.141.1 + Uvicorn 0.30.1",
+    "validation": "Pydantic 2.13.4",
+    "test_runner": "Pytest 8.4.2",
+    "database": "SQLite (aiosqlite / sqlite3 standard library)"
+  },
+  "desktop": {
+    "framework": "Tauri v2",
+    "plugins": ["tauri-plugin-shell 2", "tauri-plugin-process 2"]
+  },
+  "models": [
+    {
+      "name": "ai4bharat/indicconformer_stt_hi_hybrid_ctc_rnnt_large (quantized)",
+      "path": "models/asr/indic-conformer/model.int8.onnx",
+      "size_bytes": 196977855,
+      "size_mb": 187.85,
+      "sha256": "b99a01834cd1a72cd9be682a0b9543df6b152ef7dfceba88d3dbf59fbb77075d",
+      "format": "ONNX INT8",
+      "runtime": "onnxruntime 1.30.0 / sherpa-onnx 1.13.8"
+    }
+  ],
+  "external_binaries": {
+    "tesseract": {
+      "installed": false,
+      "status": "UNAVAILABLE"
+    },
+    "whisper_cli": {
+      "installed": false,
+      "status": "UNAVAILABLE"
+    }
+  }
+}

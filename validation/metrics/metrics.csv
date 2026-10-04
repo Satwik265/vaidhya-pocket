@@ -1,0 +1,32 @@
+Category,Metric,Value,Unit,SampleSize,Method,Date,Environment,PPT_Safe,Limitations
+Latency,Language ID Latency (Median),0.01,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Text-only
+Latency,Language ID Latency (P95),0.01,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Text-only
+Latency,Clinical NLP Extraction Latency (Median),0.24,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Text-only
+Latency,Clinical NLP Extraction Latency (P95),0.49,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Text-only
+Latency,Safety Rule Evaluation Latency (Median),0.0,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Deterministic rule evaluation
+Latency,Safety Rule Evaluation Latency (P95),0.0,ms,100,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Deterministic rule evaluation
+Latency,SQLite Write Latency (Median),11.8,ms,50,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Local SQLite
+Latency,SQLite Read Latency (Median),0.12,ms,50,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,Local SQLite
+Latency,Approval Transition Latency (Median),4.11,ms,50,Empirical benchmark,2026-09-12,Win11 Core Ultra 5,YES,State machine transition
+ASR,Model Load Time,2432.54,ms,1,ONNX session init,2026-09-12,Win11 ONNX INT8,YES,One-time cold start
+ASR,2.5s Audio Inference Latency (Median),93.64,ms,30,ONNX INT8 runtime,2026-09-12,Win11 ONNX INT8,YES,Zero-signal baseline
+ASR,2.5s Audio Inference Latency (P95),104.09,ms,30,ONNX INT8 runtime,2026-09-12,Win11 ONNX INT8,YES,Zero-signal baseline
+NLP,Overall Clinical Precision,0.9939,ratio,150,150-case Gold Standard,2026-09-12,Python NLP core,YES - WITH QUALIFIER,Synthetic benchmark corpus
+NLP,Overall Clinical Recall,0.9371,ratio,150,150-case Gold Standard,2026-09-12,Python NLP core,YES - WITH QUALIFIER,Synthetic benchmark corpus
+NLP,Overall Clinical F1,0.9647,ratio,150,150-case Gold Standard,2026-09-12,Python NLP core,YES - WITH QUALIFIER,Synthetic benchmark corpus
+NLP,Zero-Fabrication Grounding Rate,1.0,ratio,166,Verbatim evidence check,2026-09-12,Evidence Gate,YES,Synthetic benchmark corpus
+NLP_PerLanguage,EN Precision,0.9677,ratio,25,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,EN Recall,1.0,ratio,25,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,EN F1,0.9836,ratio,25,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,HI Precision,1.0,ratio,65,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,HI Recall,0.8947,ratio,65,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,HI F1,0.9444,ratio,65,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,MR Precision,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,MR Recall,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,MR F1,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,TA Precision,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,TA Recall,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,TA F1,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,GU Precision,1.0,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,GU Recall,0.8696,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
+NLP_PerLanguage,GU F1,0.9303,ratio,20,Gold Standard,2026-09-12,Local NLP,YES - WITH QUALIFIER,Synthetic benchmark
